@@ -4,7 +4,7 @@ C# (Aussprache „C Sharp“) ist eine einfache, moderne, objektorientierte und 
 
 C# ist eine objektorientierte Sprache, umfasst allerdings auch Unterstützung für eine ***komponentenorientierte*** Programmierung. Die Softwareentwicklung von heute beruht zunehmend auf Softwarekomponenten in Form von eigenständigen und selbstbeschreibenden Funktionspaketen. Wichtig bei solchen Komponenten ist, dass sie für ein Programmiermodell mit Eigenschaften, Methoden und Ereignissen stehen. Sie verfügen über Attribute, die deklarative Informationen zur Komponente bereitstellen, und lassen sich in ihre eigene Dokumentation integrieren. C# bietet Sprachkonstrukte zur direkten Unterstützung für diese Konzepte, wodurch c# zu einer sehr natürlichen Sprache, in denen zum Erstellen und Verwenden der Software-Komponenten.
 
-Mehrere C#-Funktionen zu unterstützen, die zur Erstellung der stabile und permanente Anwendungen: ***speicherbereinigung*** von nicht verwendeten Objekte belegten Arbeitsspeicher automatisch freigibt ***Ausnahmebehandlung*** bietet einen strukturierten und erweiterbaren Ansatz für die fehlererkennung und Wiederherstellung und die ***typsichere*** Aufbau der Sprache macht es unmöglich, die von nicht initialisierten lesen Variablen, für Index-Arrays über die Grenzen oder um deaktiviert Typumwandlungen durchzuführen.
+Mehrere C# bietet Hilfe bei der Erstellung der stabile und permanente Anwendungen: ***Die automatische speicherbereinigung*** von nicht verwendeten Objekte belegten Arbeitsspeicher automatisch freigibt ***Ausnahmebehandlung*** bietet einen strukturierten und erweiterbaren Ansatz für die fehlererkennung und Wiederherstellung und die ***typsichere*** Aufbau der Sprache macht es unmöglich, nicht initialisierte Variablen gelesen werden soll. Geben Sie zum Indizieren Umwandlungen Arrays über die Grenzen oder führen Sie deaktiviert.
 
 C# verfügt über ein ***einheitliches Typsystem***. Alle C#-Typen, einschließlich primitiver Typen wie `int` und `double`, erben von einem einzelnen `object`-Stammtyp. Daher verwenden alle Typen einen Satz allgemeiner Vorgänge, und Werte eines beliebigen Typs können gespeichert, übertragen und konsistent ausgeführt werden. Darüber hinaus unterstützt C# benutzerdefinierte Verweistypen und Werttypen und ermöglicht so die dynamische Zuordnung von Objekten sowie die Inlinespeicherung einfacher Strukturen.
 
@@ -164,14 +164,14 @@ Die folgende Tabelle enthält die # numerische Typen.
 
 | __Kategorie__      | __Bits__ | __Type__  | __Bereich/der gleichen Genauigkeit__ |
 |-------------------|----------|-----------|---------------------|
-| Ganzzahlig mit Vorzeichen   | 8        | `sbyte`   | -128... 127 |
-|                   | 16       | `short`   | -32, 768... 32, 767 |
-|                   | 32       | `int`     | -2,147,483, 648... 2, 147, 483, 647 |
-|                   | 64       | `long`    | -9,223,372,036,854,775, 808,... 9 "," 223 "," 372 "," 036 "," 854 "," 775 "," 807 |
-| Ganzzahlig ohne Vorzeichen | 8        | `byte`    | 0... 255 |
-|                   | 16       | `ushort`  | 0... 65.535 |
-|                   | 32       | `uint`    | 0... 4.294.967.295 |
-|                   | 64       | `ulong`   | 0... 18.446.744.073.709.551.615 |
+| Ganzzahlig mit Vorzeichen   | 8        | `sbyte`   | -128...127 |
+|                   | 16       | `short`   | -32,768...32,767 |
+|                   | 32       | `int`     | -2,147,483,648...2,147,483,647 |
+|                   | 64       | `long`    | -9,223,372,036,854,775,808...9,223,372,036,854,775,807 |
+| Ganzzahlig ohne Vorzeichen | 8        | `byte`    | 0...255 |
+|                   | 16       | `ushort`  | 0...65,535 |
+|                   | 32       | `uint`    | 0...4,294,967,295 |
+|                   | 64       | `ulong`   | 0...18,446,744,073,709,551,615 |
 | Gleitkomma    | 32       | `float`   | 1,5 × 10 ^-45 bis 3,4 × 10 ^ 38, Genauigkeit von 7 Stellen |
 |                   | 64       | `double`  | 5,0 × 10 ^-324 bis 1,7 × 10 ^ 308, Genauigkeit von 15 Stellen |
 | Decimal           | 128      | `decimal` | 1.0 × 10 ^-28 7,9 × 10 ^ 28, 28 Stellen Genauigkeit |
@@ -267,9 +267,9 @@ Die folgende Tabelle enthält die # Operatoren, die Auflistungskategorien "Opera
 |                                  | `x - y`           | Subtraktion, Delegatentfernung |
 | Shift                            | `x << y`          | Linksverschiebung |
 |                                  | `x >> y`          | Rechtsverschiebung |
-| Relational und Typtest      | `x < y`           | Kleiner als |
+| Relational und Typtest      | `x < y`           | Kleiner als  |
 |                                  | `x > y`           | Größer als |
-|                                  | `x <= y`          | Kleiner oder gleich |
+|                                  | `x <= y`          | Kleiner oder gleich  |
 |                                  | `x >= y`          | Größer oder gleich |
 |                                  | `x is T`          | Zurückgeben `true` Wenn `x` ist eine `T`, `false` andernfalls |
 |                                  | `x as T`          | Zurückgeben `x` als `T`, oder `null` Wenn `x` kein `T` |
@@ -1437,7 +1437,7 @@ control.Paint();                        // Ok
 
 ## <a name="enums"></a>Enumerationen
 
-Ein ***Enumerationstyp*** ist ein unverwechselbarer Werttyp mit einem Satz benannter Konstanten. Das folgende Beispiel deklariert und verwendet einen Enumerationstyp, der mit dem Namen `Color` mit drei Konstanten Werten `Red`, `Green`, und `Blue`.
+Ein ***Enumerationstyp*** ist ein eindeutiger Werttyp mit einem Satz benannter Konstanten. Das folgende Beispiel deklariert und verwendet einen Enumerationstyp, der mit dem Namen `Color` mit drei Konstanten Werten `Red`, `Green`, und `Blue`.
 
 ```csharp
 using System;
