@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8666f0fc13e24bd4c0499df77ab887a293c80cf4
+ms.sourcegitcommit: a245de0ce53abe0d77f61bbc3ed30b0bb64cec9a
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56306649"
+---
 # <a name="introduction"></a>Einführung
 
 C# (Aussprache „C Sharp“) ist eine einfache, moderne, objektorientierte und typsichere Programmiersprache. C# hat seine Wurzeln in der Sprachen C und C, C++ und Java-Programmierer sofort vertraut sein. C# ist durch ECMA-International als standardisiert die ***ECMA-334*** standard und ISO/IEC als die ***ISO/IEC 23270*** standard. Von Microsoft c#-Compiler für .NET Framework ist keine entsprechende Implementierung dieser beiden dieser Standards.
@@ -1623,4 +1631,4 @@ class Test
     }
 }
 ```
-Wenn per Reflektion ein bestimmtes Attribut angefordert wird, wird der Konstruktor für die Attributklasse mit den in der Programmquelle angegebenen Informationen aufgerufen, und die resultierende Attributinstanz wird zurückgegeben. Wenn zusätzliche Informationen über Eigenschaften bereitgestellt wurden, werden diese Eigenschaften auf die vorgegebenen Werte festgelegt, bevor die Attributinstanz zurückgegeben wird.
+Wenn per Reflektion ein bestimmtes Attribut angefordert wird, wird der Konstruktor für die Attributklasse mit den in der Programmquelle angegebenen Informationen aufgerufen, und die resultierende Attributinstanz wird zurückgegeben. Wenn Sie weitere Informationen über Eigenschaften bereitgestellt wurden, werden diese Eigenschaften auf die angegebenen Werte festgelegt, bevor die Attributinstanz zurückgegeben wird. Dies ist test
