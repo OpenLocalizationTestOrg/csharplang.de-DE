@@ -3,7 +3,7 @@ ms.openlocfilehash: 9e09fea1b050d4c81afa91b6d3345847f0496805
 ms.sourcegitcommit: 55811c551095ea9ab89baf1144ac0cf7fb1c5df8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
+ms.lasthandoff: 03/05/2019
 ms.locfileid: "57253857"
 ---
 <properties

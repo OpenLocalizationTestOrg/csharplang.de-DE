@@ -3,7 +3,7 @@ ms.openlocfilehash: 97f4a97a674e17870f1d24e35258c4f79c559eb2
 ms.sourcegitcommit: 55811c551095ea9ab89baf1144ac0cf7fb1c5df8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2019
+ms.lasthandoff: 03/05/2019
 ms.locfileid: "57253860"
 ---
 <properties
@@ -25,40 +25,40 @@ cloudEnvironments="public"
     "commonProblems": [
         {
             "title": "Ich kann keine Verbindung mit meinem virtuellen Computer herstellen",
-            "description": "Discover issues that may be affecting connectivity to your VM due to either  platform issue or VM issue",
-            "category": "Connectivity",
-            "searchTags": "connectivity, rdp",
+            "description": "Ermitteln Sie Probleme, die Konnektivität mit Ihrem virtuellen Computer entweder plattformproblem oder VM-Problem u. u. betreffen",
+            "category": "Konnektivität",
+            "searchTags": "Rdp-Konnektivität",
             "supportTopicId": "4354354565",
             "symptomId": "cannotrdpazureportalinsight"
         },
         {
             "title": "Ich kann nicht Neustart/mein virtueller Computer neu starten",
-            "description": "Discover issues that may be affecting connectivity to your VM due to either  platform issue or VM issue",
-            "category": "Connectivity",
-            "searchTags": "restart, reboot",
+            "description": "Ermitteln Sie Probleme, die Konnektivität mit Ihrem virtuellen Computer entweder plattformproblem oder VM-Problem u. u. betreffen",
+            "category": "Konnektivität",
+            "searchTags": "neu starten, neu starten",
             "supportTopicId": "4354354567"
         },
         {
             "title": "Mein virtueller Computer ist langsam ausgeführt.",
-            "description": "Discover issues that may be affecting connectivity to your VM due to either  platform issue or VM issue",
-            "category": "Performance",
-            "searchTags": "performance, vm",
+            "description": "Ermitteln Sie Probleme, die Konnektivität mit Ihrem virtuellen Computer entweder plattformproblem oder VM-Problem u. u. betreffen",
+            "category": "Leistung",
+            "searchTags": "Leistung, virtuelle Computer",
             "supportTopicId": "4354354565"
         },
         {
             "title": "Wie setze ich das Kennwort für mein virtueller Computer zurück?",
-            "description": "Discover issues that may be affecting connectivity to your VM due to either  platform issue or VM issue",
-            "category": "Reset",
+            "description": "Ermitteln Sie Probleme, die Konnektivität mit Ihrem virtuellen Computer entweder plattformproblem oder VM-Problem u. u. betreffen",
+            "category": "Zurücksetzen",
             "supportTopicId": "4354354565"
         }
     ],
     "troubleshootingTools": [
         {
             "title": "Erneutes Bereitstellen des virtuellen Computers",
-            "description": "Migrate this virtual machine to a different host to resolve connectivity issues",
+            "description": "Migrieren Sie diese virtuelle Maschine auf einen anderen Host aus, um Konnektivitätsprobleme zu beheben.",
             "newTagExpiryDate": "4/14/2019",
-            "category": "Connectivity",
-            "searchTags": "deployment, rdp",
+            "category": "Konnektivität",
+            "searchTags": "Rdp-Bereitstellung",
             "type": "tool",
             "bladeLink": {
                 "extensionName": "Microsoft_Azure_Compute",
@@ -73,11 +73,11 @@ cloudEnvironments="public"
         },
         {
             "title": "Kann keine Verbindung zum virtuellen Computer hergestellt werden.",
-            "description": "Discover issues that may be affecting connectivity to your VM due to either  platform issue or VM issue",
+            "description": "Ermitteln Sie Probleme, die Konnektivität mit Ihrem virtuellen Computer entweder plattformproblem oder VM-Problem u. u. betreffen",
             "newTagExpiryDate": "",
             "type": "insight",
-            "searchTags": "connectvity, rdp",
-            "category": "Connectivity",
+            "searchTags": "sporadischen, Rdp-Verbindungen",
+            "category": "Konnektivität",
             "supportTopicId": "4354354565",
             "symptomId": "cannotrdpazureportalinsight"
         }
