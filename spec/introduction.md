@@ -1,28 +1,20 @@
----
-ms.openlocfilehash: 8666f0fc13e24bd4c0499df77ab887a293c80cf4
-ms.sourcegitcommit: a245de0ce53abe0d77f61bbc3ed30b0bb64cec9a
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56306649"
----
-# <a name="introduction"></a>Einführung
+# <a name="introduction---test"></a>德语 - Test
 
-C# (Aussprache „C Sharp“) ist eine einfache, moderne, objektorientierte und typsichere Programmiersprache. C# hat seine Wurzeln in der Sprachen C und C, C++ und Java-Programmierer sofort vertraut sein. C# ist durch ECMA-International als standardisiert die ***ECMA-334*** standard und ISO/IEC als die ***ISO/IEC 23270*** standard. Von Microsoft c#-Compiler für .NET Framework ist keine entsprechende Implementierung dieser beiden dieser Standards.
+C# (pronounced "See Sharp") is a simple, modern, object-oriented, and type-safe programming language. C# has its roots in the C family of languages and will be immediately familiar to C, C++, and Java programmers. C# is standardized by ECMA International as the ***ECMA-334*** standard and by ISO/IEC as the ***ISO/IEC 23270*** standard. Microsoft's C# compiler for the .NET Framework is a conforming implementation of both of these standards.
 
-C# ist eine objektorientierte Sprache, umfasst allerdings auch Unterstützung für eine ***komponentenorientierte*** Programmierung. Die Softwareentwicklung von heute beruht zunehmend auf Softwarekomponenten in Form von eigenständigen und selbstbeschreibenden Funktionspaketen. Wichtig bei solchen Komponenten ist, dass sie für ein Programmiermodell mit Eigenschaften, Methoden und Ereignissen stehen. Sie verfügen über Attribute, die deklarative Informationen zur Komponente bereitstellen, und lassen sich in ihre eigene Dokumentation integrieren. C# bietet Sprachkonstrukte zur direkten Unterstützung für diese Konzepte, wodurch c# zu einer sehr natürlichen Sprache, in denen zum Erstellen und Verwenden der Software-Komponenten.
+C# is an object-oriented language, but C# further includes support for ***component-oriented*** programming. Contemporary software design increasingly relies on software components in the form of self-contained and self-describing packages of functionality. Key to such components is that they present a programming model with properties, methods, and events; they have attributes that provide declarative information about the component; and they incorporate their own documentation. C# provides language constructs to directly support these concepts, making C# a very natural language in which to create and use software components.
 
-Mehrere C# bietet Hilfe bei der Erstellung der stabile und permanente Anwendungen: ***Die automatische speicherbereinigung*** von nicht verwendeten Objekte belegten Arbeitsspeicher automatisch freigibt ***Ausnahmebehandlung*** bietet einen strukturierten und erweiterbaren Ansatz für die fehlererkennung und Wiederherstellung und die ***typsichere*** Aufbau der Sprache macht es unmöglich, nicht initialisierte Variablen gelesen werden soll. Geben Sie zum Indizieren Umwandlungen Arrays über die Grenzen oder führen Sie deaktiviert.
+Several C# features aid in the construction of robust and durable applications: ***Garbage collection*** automatically reclaims memory occupied by unused objects; ***exception handling*** provides a structured and extensible approach to error detection and recovery; and the ***type-safe*** design of the language makes it impossible to read from uninitialized variables, to index arrays beyond their bounds, or to perform unchecked type casts.
 
-C# verfügt über ein ***einheitliches Typsystem***. Alle C#-Typen, einschließlich primitiver Typen wie `int` und `double`, erben von einem einzelnen `object`-Stammtyp. Daher verwenden alle Typen einen Satz allgemeiner Vorgänge, und Werte eines beliebigen Typs können gespeichert, übertragen und konsistent ausgeführt werden. Darüber hinaus unterstützt C# benutzerdefinierte Verweistypen und Werttypen und ermöglicht so die dynamische Zuordnung von Objekten sowie die Inlinespeicherung einfacher Strukturen.
+C# has a ***unified type system***. All C# types, including primitive types such as `int` and `double`, inherit from a single root `object` type. Thus, all types share a set of common operations, and values of any type can be stored, transported, and operated upon in a consistent manner. Furthermore, C# supports both user-defined reference types and value types, allowing dynamic allocation of objects as well as in-line storage of lightweight structures.
 
-Um sicherzustellen, dass c#-Programmen und Bibliotheken im Laufe der Zeit kompatibel weiterentwickelt werden können, wurde viel Bedeutung für platziert ***versionsverwaltung*** # Entwurf. Viele Programmiersprachen schenken diesem Problem wenig Beachtung, und in dieser Sprache geschriebene Programme stürzen daher häufiger als notwendig ab, wenn neuere Versionen abhängiger Bibliotheken eingeführt werden. Aspekte der # Entwurf, die direkt von Überlegungen bei der Versionskontrolle beeinflusst wurden, gehören die separaten `virtual` und `override` Modifizierer, die Regeln für die überladungsauflösung und die Unterstützung für explizite Schnittstellenmember-Deklarationen.
+To ensure that C# programs and libraries can evolve over time in a compatible manner, much emphasis has been placed on ***versioning*** in C#'s design. Many programming languages pay little attention to this issue, and, as a result, programs written in those languages break more often than necessary when newer versions of dependent libraries are introduced. Aspects of C#'s design that were directly influenced by versioning considerations include the separate `virtual` and `override` modifiers, the rules for method overload resolution, and support for explicit interface member declarations.
 
-Im verbleibenden Teil dieses Kapitels wird beschrieben, die wesentlichen Funktionen von c#-Sprache. Obwohl es sich bei spätere Kapiteln detailorientiertheit und manchmal mathematischen Regeln und Ausnahmen zu beschreiben, wurde in diesem Kapitel für Klarheit und Übersichtlichkeit zu Lasten der Vollständigkeit. Ziel ist für eine Einführung in die Sprache des Readers bereit, die das Schreiben von frühen Programme und das Lesen der späteren Kapiteln erleichtern wird.
+The rest of this chapter describes the essential features of the C# language. Although later chapters describe rules and exceptions in a detail-oriented and sometimes mathematical manner, this chapter strives for clarity and brevity at the expense of completeness. The intent is to provide the reader with an introduction to the language that will facilitate the writing of early programs and the reading of later chapters.
 
-## <a name="hello-world"></a>Hello World
+## <a name="hello-world"></a>Hello world
 
-Das Programm „Hello, World“ wird für gewöhnlich zur Einführung einer Programmiersprache verwendet. Hier ist es in C#:
+The "Hello, World" program is traditionally used to introduce a programming language. Here it is in C#:
 
 ```csharp
 using System;
@@ -35,26 +27,26 @@ class Hello
 }
 ```
 
-C#-Quelldateien weisen in der Regel die Dateierweiterung `.cs` auf. Unter der Annahme, dass das Programm "Hello, World" in der Datei gespeichert wird `hello.cs`, das Programm kompiliert werden kann, mit dem Microsoft C#-Compiler, die über die Befehlszeile
+C# source files typically have the file extension `.cs`. Assuming that the "Hello, World" program is stored in the file `hello.cs`, the program can be compiled with the Microsoft C# compiler using the command line
 ```
 csc hello.cs
 ```
-erzeugt eine ausführbare Assembly mit dem Namen `hello.exe`. Die Ausgabe von dieser Anwendung erstellt wird, wenn er ausgeführt wird
+which produces an executable assembly named `hello.exe`. The output produced by this application when it is run is
 ```
 Hello, World
 ```
 
-Das Programm „Hello, World“ wird mit einer `using`-Richtlinie gestartet, die auf den `System`-Namespace verweist. Namespaces bieten eine hierarchische Möglichkeit zum Organisieren von C#-Programmen und -Bibliotheken. Namespaces enthalten Typen und andere Namespaces. Beispiel: Der `System`-Namespace enthält eine Reihe von Typen, wie etwa die `Console`-Klasse, auf die im Programm verwiesen wird, und eine Reihe anderer Namespaces, wie etwa `IO` und `Collections`. Eine `using`-Richtlinie, die auf einen bestimmten Namespace verweist, ermöglicht die nicht qualifizierte Nutzung der Typen, die Member dieses Namespace sind. Aufgrund der `using`-Direktive kann das Programm `Console.WriteLine` als Abkürzung für `System.Console.WriteLine` verwenden.
+The "Hello, World" program starts with a `using` directive that references the `System` namespace. Namespaces provide a hierarchical means of organizing C# programs and libraries. Namespaces contain types and other namespaces—for example, the `System` namespace contains a number of types, such as the `Console` class referenced in the program, and a number of other namespaces, such as `IO` and `Collections`. A `using` directive that references a given namespace enables unqualified use of the types that are members of that namespace. Because of the `using` directive, the program can use `Console.WriteLine` as shorthand for `System.Console.WriteLine`.
 
-Die `Hello`-Klasse, die vom Programm „Hello, World“ deklariert wird, verfügt über einen einzelnen Member: die `Main`-Methode. Die `Main` Methode wird deklariert, mit der `static` Modifizierer. Auch wenn Instanzmethoden mit dem Schlüsselwort `this` auf eine bestimmte einschließende Objektinstanz verweisen können, agieren statische Methoden ohne Verweis auf ein bestimmtes Objekt. Gemäß der Konvention fungiert eine statische Methode mit der Bezeichnung `Main` als Einstiegspunkt eines Programms.
+The `Hello` class declared by the "Hello, World" program has a single member, the method named `Main`. The `Main` method is declared with the `static` modifier. While instance methods can reference a particular enclosing object instance using the keyword `this`, static methods operate without reference to a particular object. By convention, a static method named `Main` serves as the entry point of a program.
 
-Die Ausgabe des Programms wird anhand der `WriteLine`-Methode der `Console`-Klasse im `System`-Namespace generiert. Diese Klasse wird von der .NET Framework-Klassenbibliotheken bereitgestellt, die standardmäßig vom Microsoft C#-Compiler automatisch verwiesen wird. Beachten Sie, dass c# selbst keine separate Laufzeit-Bibliothek. Stattdessen ist .NET Framework die Runtime-Bibliothek von c#.
+The output of the program is produced by the `WriteLine` method of the `Console` class in the `System` namespace. This class is provided by the .NET Framework class libraries, which, by default, are automatically referenced by the Microsoft C# compiler. Note that C# itself does not have a separate runtime library. Instead, the .NET Framework is the runtime library of C#.
 
-## <a name="program-structure"></a>Programmstruktur
+## <a name="program-structure"></a>Program structure
 
-Die organisatorischen Schlüsselkonzepte in C# sind: ***Programme***, ***Namespaces***, ***Typen***, ***Member*** und ***Assemblys***. C#-Programme bestehen aus mindestens einer Quelldatei. Programme deklarieren Typen, die Member enthalten, und können in Namespaces organisiert werden. Klassen und Schnittstellen sind Beispiele für Typen. Felder, Methoden, Eigenschaften und Ereignisse sind Beispiele für Member. Wenn C#-Programme kompiliert werden, werden sie physisch in Assemblys verpackt. Assemblys müssen in der Regel die Dateierweiterung `.exe` oder `.dll`, abhängig davon, ob sie implementieren ***Anwendungen*** oder ***Bibliotheken***.
+The key organizational concepts in C# are ***programs***, ***namespaces***, ***types***, ***members***, and ***assemblies***. C# programs consist of one or more source files. Programs declare types, which contain members and can be organized into namespaces. Classes and interfaces are examples of types. Fields, methods, properties, and events are examples of members. When C# programs are compiled, they are physically packaged into assemblies. Assemblies typically have the file extension `.exe` or `.dll`, depending on whether they implement ***applications*** or ***libraries***.
 
-Im Beispiel
+The example
 
 ```csharp
 using System;
@@ -89,16 +81,16 @@ namespace Acme.Collections
     }
 }
 ```
-deklariert eine Klasse namens `Stack` in einem Namespace namens `Acme.Collections`. Der vollqualifizierte Name dieser Klasse ist `Acme.Collections.Stack`. Die Klasse enthält mehrere Member: ein Feld mit dem Namen `top`, zwei Methoden mit dem Namen `Push` und `Pop` sowie eine geschachtelte Klasse mit dem Namen `Entry`. Die `Entry`-Klasse enthält weitere drei Member: ein Feld mit dem Namen `next`, ein Feld mit dem Namen `data` und einen Konstruktor. Vorausgesetzt, dass der Quellcode des Beispiels in der Datei `acme.cs` gespeichert wird, kompiliert die Befehlszeile
+declares a class named `Stack` in a namespace called `Acme.Collections`. The fully qualified name of this class is `Acme.Collections.Stack`. The class contains several members: a field named `top`, two methods named `Push` and `Pop`, and a nested class named `Entry`. The `Entry` class further contains three members: a field named `next`, a field named `data`, and a constructor. Assuming that the source code of the example is stored in the file `acme.cs`, the command line
 
 ```
 csc /t:library acme.cs
 ```
-das Beispiel als Bibliothek (Code ohne `Main`-Einstiegspunkt) und erstellt eine Assembly mit dem Namen `acme.dll`.
+compiles the example as a library (code without a `Main` entry point) and produces an assembly named `acme.dll`.
 
-Assemblys enthalten ausführbaren Code in Form von ***Intermediate Language*** (IL)-Anweisungen und symbolischen Informationen in Form von ***Metadaten***. Vor der Ausführung wird der IL-Code in einer Assembly automatisch durch den Just-in-Time-Compiler (JIT) der .NET Common Language Runtime in prozessorspezifischen Code konvertiert.
+Assemblies contain executable code in the form of ***Intermediate Language*** (IL) instructions, and symbolic information in the form of ***metadata***. Before it is executed, the IL code in an assembly is automatically converted to processor-specific code by the Just-In-Time (JIT) compiler of .NET Common Language Runtime.
 
-Da eine Assembly eine selbstbeschreibende Funktionseinheit mit Code und Metadaten ist, besteht in C# keine Notwendigkeit für `#include`-Direktiven und Headerdateien. Die öffentlichen Typen und Member, die in einer bestimmten Assembly enthalten sind, werden einfach durch Verweisen auf die Assembly beim Kompilieren des Programms in einem C#-Programm verfügbar gemacht. Dieses Programm verwendet z.B. die `Acme.Collections.Stack`-Klasse aus der `acme.dll`-Assembly:
+Because an assembly is a self-describing unit of functionality containing both code and metadata, there is no need for `#include` directives and header files in C#. The public types and members contained in a particular assembly are made available in a C# program simply by referencing that assembly when compiling the program. For example, this program uses the `Acme.Collections.Stack` class from the `acme.dll` assembly:
 
 ```csharp
 using System;
@@ -117,92 +109,92 @@ class Test
     }
 }
 ```
-Wenn das Programm in der Datei gespeichert ist `test.cs`bei `test.cs` kompiliert wurde, die `acme.dll` Assembly kann verwiesen werden, mithilfe des Compilers `/r` Option:
+If the program is stored in the file `test.cs`, when `test.cs` is compiled, the `acme.dll` assembly can be referenced using the compiler's `/r` option:
 
 ```
 csc /r:acme.dll test.cs
 ```
-So wird eine ausführbare Assembly mit dem Namen `test.exe` erstellt, die bei Ausführung folgende Ausgabe erzeugt:
+This creates an executable assembly named `test.exe`, which, when run, produces the output:
 
 ```
 100
 10
 1
 ```
-In C# kann der Quelltext eines Programms in verschiedenen Quelldateien gespeichert werden. Bei der Kompilierung eines C#-Programms mit mehreren Dateien werden alle Quelldateien zusammen verarbeitet, und die Quelldateien können frei aufeinander verweisen – vom Konzept her ist es so, als seien alle Quelldateien vor der Verarbeitung in einer einzigen großen Datei verkettet worden. Vorwärtsdeklarationen sind in C# nie erforderlich, da die Reihenfolge der Deklaration mit wenigen Ausnahmen unbedeutend ist. C# beschränkt eine Quelldatei weder auf die Deklaration eines einzigen öffentlichen Typs, noch muss der Name der Quelldatei mit einem in der Quelldatei deklarierten Typ übereinstimmen.
+C# permits the source text of a program to be stored in several source files. When a multi-file C# program is compiled, all of the source files are processed together, and the source files can freely reference each other—conceptually, it is as if all the source files were concatenated into one large file before being processed. Forward declarations are never needed in C# because, with very few exceptions, declaration order is insignificant. C# does not limit a source file to declaring only one public type nor does it require the name of the source file to match a type declared in the source file.
 
-## <a name="types-and-variables"></a>Typen und Variablen
+## <a name="types-and-variables"></a>Types and variables
 
-Es gibt zwei Arten von Typen in C#: ***Werttypen*** und ***Verweistypen***. Variablen von Werttypen enthalten ihre Daten direkt, Variablen von Verweistypen speichern hingegen Verweise auf ihre Daten – letztere werden als Objekte bezeichnet. Mit Verweistypen können zwei Variablen auf das gleiche Objekt verweisen, und so können an einer Variablen durchgeführte Vorgänge das Objekt beeinflussen, auf das die andere Variable verweist. Bei Werttypen besitzt jede Variable eine eigene Kopie der Daten, und auf eine Variable angewendete Vorgänge können die andere Variable nicht beeinflussen (außer im Fall von `ref`- und `out`-Parametervariablen).
+There are two kinds of types in C#: ***value types*** and ***reference types***. Variables of value types directly contain their data whereas variables of reference types store references to their data, the latter being known as objects. With reference types, it is possible for two variables to reference the same object and thus possible for operations on one variable to affect the object referenced by the other variable. With value types, the variables each have their own copy of the data, and it is not possible for operations on one to affect the other (except in the case of `ref` and `out` parameter variables).
 
-# Werttypen sind weiter unterteilt in ***einfache Typen***, ***Enumerationstypen***, ***Strukturtypen***, und ***auf NULL festlegbare Typen***, und die # Referenz Typen sind weiter unterteilt in ***Klassentypen***, ***Schnittstellentypen***, ***Arraytypen***, und ***Delegattypen***.
+C#'s value types are further divided into ***simple types***, ***enum types***, ***struct types***, and ***nullable types***, and C#'s reference types are further divided into ***class types***, ***interface types***, ***array types***, and ***delegate types***.
 
-Die folgende Tabelle enthält einen Überblick über die # Typsystem.
+The following table provides an overview of C#'s type system.
 
-| __Kategorie__    |                 | __Beschreibung__ |
+| __Category__    |                 | __Description__ |
 |-----------------|-----------------|-----------------|
-| Werttypen     | Einfache Typen    | Ganzzahlig mit Vorzeichen: `sbyte`, `short`, `int`,`long` |
-|                 |                 | Ganzzahlig ohne Vorzeichen: `byte`, `ushort`, `uint`,`ulong` |
-|                 |                 | Unicode-Zeichen: `char` |
-|                 |                 | IEEE-Gleitkomma: `float`, `double` |
-|                 |                 | Dezimalwert mit hoher Genauigkeit: `decimal` |
-|                 |                 | Boolesch: `bool` |
-|                 | Enumerationstypen      | Benutzerdefinierte Typen der Form `enum E {...}` |
-|                 | Strukturtypen    | Benutzerdefinierte Typen der Form `struct S {...}` |
-|                 | Auf NULL festlegbare Typen  | Erweiterungen aller anderen Werttypen mit einem `null`-Wert |
-| Verweistypen | Klassentypen     | Ultimative Basisklasse aller anderen Typen:`object` |
-|                 |                 | Unicode-Zeichenfolgen: `string` |
-|                 |                 | Benutzerdefinierte Typen der Form `class C {...}` |
-|                 | Schnittstellentypen | Benutzerdefinierte Typen der Form `interface I {...}` |
-|                 | Arraytypen     | Ein- und mehrdimensional, z.B. `int[]` und`int[,]` |
-|                 | Delegattypen  | Benutzerdefinierte Typen im Format z. B. `delegate int  D(...)` |
+| Value types     | Simple types    | Signed integral: `sbyte`, `short`, `int`, `long` |
+|                 |                 | Unsigned integral: `byte`, `ushort`, `uint`, `ulong` |
+|                 |                 | Unicode characters: `char` |
+|                 |                 | IEEE floating point: `float`, `double` |
+|                 |                 | High-precision decimal: `decimal` |
+|                 |                 | Boolean: `bool` |
+|                 | Enum types      | User-defined types of the form `enum E {...}` |
+|                 | Struct types    | User-defined types of the form `struct S {...}` |
+|                 | Nullable types  | Extensions of all other value types with a `null` value |
+| Reference types | Class types     | Ultimate base class of all other types: `object` |
+|                 |                 | Unicode strings: `string` |
+|                 |                 | User-defined types of the form `class C {...}` |
+|                 | Interface types | User-defined types of the form `interface I {...}` |
+|                 | Array types     | Single- and multi-dimensional, for example, `int[]` and `int[,]` |
+|                 | Delegate types  | User-defined types of the form e.g. `delegate int  D(...)` |
 
-Die acht Ganzzahltypen unterstützen 8-Bit-, 16-Bit, 32-Bit- und 64-Bit-Werte mit oder ohne Vorzeichen.
+The eight integral types provide support for 8-bit, 16-bit, 32-bit, and 64-bit values in signed or unsigned form.
 
-Zeigen Sie die beiden floating-Typen, `float` und `double`, werden mit der 32-Bit mit einfacher Genauigkeit und 64-Bit-Gleitkommazahl mit doppelter Genauigkeit IEEE 754-Formate dargestellt.
+The two floating point types, `float` and `double`, are represented using the 32-bit single-precision and 64-bit double-precision IEEE 754 formats.
 
-Der `decimal`-Typ ist ein für Finanz-und Währungsberechnungen geeigneter 128-Bit-Datentyp.
+The `decimal` type is a 128-bit data type suitable for financial and monetary calculations.
 
-# `bool` Typ dient zur Darstellung boolescher Werte – Werte, die entweder `true` oder `false`.
+C#'s `bool` type is used to represent boolean values—values that are either `true` or `false`.
 
-Zur Zeichen- und Zeichenfolgenverarbeitung in C# wird die Unicode-Codierung verwendet. Der `char`-Typ stellt eine UTF-16-Codeeinheit dar und der `string`-Typ eine Folge von UTF-16-Codeeinheiten.
+Character and string processing in C# uses Unicode encoding. The `char` type represents a UTF-16 code unit, and the `string` type represents a sequence of UTF-16 code units.
 
-Die folgende Tabelle enthält die # numerische Typen.
+The following table summarizes C#'s numeric types.
 
 
-| __Kategorie__      | __Bits__ | __Type__  | __Bereich/der gleichen Genauigkeit__ |
+| __Category__      | __Bits__ | __Type__  | __Range/Precision__ |
 |-------------------|----------|-----------|---------------------|
-| Ganzzahlig mit Vorzeichen   | 8        | `sbyte`   | -128...127 |
+| Signed integral   | 8        | `sbyte`   | -128...127 |
 |                   | 16       | `short`   | -32,768...32,767 |
 |                   | 32       | `int`     | -2,147,483,648...2,147,483,647 |
 |                   | 64       | `long`    | -9,223,372,036,854,775,808...9,223,372,036,854,775,807 |
-| Ganzzahlig ohne Vorzeichen | 8        | `byte`    | 0...255 |
+| Unsigned integral | 8        | `byte`    | 0...255 |
 |                   | 16       | `ushort`  | 0...65,535 |
 |                   | 32       | `uint`    | 0...4,294,967,295 |
 |                   | 64       | `ulong`   | 0...18,446,744,073,709,551,615 |
-| Gleitkomma    | 32       | `float`   | 1,5 × 10 ^-45 bis 3,4 × 10 ^ 38, Genauigkeit von 7 Stellen |
-|                   | 64       | `double`  | 5,0 × 10 ^-324 bis 1,7 × 10 ^ 308, Genauigkeit von 15 Stellen |
-| Decimal           | 128      | `decimal` | 1.0 × 10 ^-28 7,9 × 10 ^ 28, 28 Stellen Genauigkeit |
+| Floating point    | 32       | `float`   | 1.5 × 10^−45 to 3.4 × 10^38, 7-digit precision |
+|                   | 64       | `double`  | 5.0 × 10^−324 to 1.7 × 10^308, 15-digit precision |
+| Decimal           | 128      | `decimal` | 1.0 × 10^−28 to 7.9 × 10^28, 28-digit precision |
 
-C#-Programme verwenden ***Typdeklarationen***, um neue Typen zu erstellen. Eine Typdeklaration gibt den Namen und die Member des neuen Typs an. Fünf Typkategorien # sind Benutzerdefinierbar: Klasse Typen, Strukturtypen, Schnittstellentypen, Enumerationstypen und Delegattypen.
+C# programs use ***type declarations*** to create new types. A type declaration specifies the name and the members of the new type. Five of C#'s categories of types are user-definable: class types, struct types, interface types, enum types, and delegate types.
 
-Ein Klassentyp definiert eine Datenstruktur, die Datenmember (Felder) und Funktionsmember (Methoden, Eigenschaften usw.) enthält. Klassentypen unterstützen einzelne Vererbung und Polymorphie. Dies sind Mechanismen, durch die abgeleitete Klassen erweitert und Basisklassen spezialisiert werden können.
+A class type defines a data structure that contains data members (fields) and function members (methods, properties, and others). Class types support single inheritance and polymorphism, mechanisms whereby derived classes can extend and specialize base classes.
 
-Ein Strukturtyp ähnelt einem Klassentyp, da es sich um eine Struktur mit Datenmembern und Funktionsmembern darstellt. Im Gegensatz zu Klassen, Strukturen sind allerdings Werttypen und erfordern keine Heapzuordnung. Strukturtypen unterstützen keine benutzerdefinierte Vererbung, und alle Strukturtypen erben implizit vom Typ `object`.
+A struct type is similar to a class type in that it represents a structure with data members and function members. However, unlike classes, structs are value types and do not require heap allocation. Struct types do not support user-specified inheritance, and all struct types implicitly inherit from type `object`.
 
-Ein Schnittstellentyp definiert einen Vertrag als benannter Satz öffentlicher Funktionsmember. Eine Klasse oder Struktur, die eine Schnittstelle implementiert, muss Implementierungen der Funktionsmember der Schnittstelle bereitstellen. Eine Schnittstelle kann von mehreren Basisschnittstellen erben, und eine Klasse oder Struktur kann mehrere Schnittstellen implementieren.
+An interface type defines a contract as a named set of public function members. A class or struct that implements an interface must provide implementations of the interface's function members. An interface may inherit from multiple base interfaces, and a class or struct may implement multiple interfaces.
 
-Ein Delegattyp stellt Verweise auf Methoden mit einer bestimmten Parameterliste und dem Rückgabetyp dar. Delegate ermöglichen die Behandlung von Methoden als Entitäten, die Variablen zugewiesen und als Parameter übergeben werden können. Delegate ähneln dem Konzept von Funktionszeigern, die Sie in einigen anderen Sprachen finden. Im Gegensatz zu Funktionszeigern sind Delegate allerdings objektorientiert und typsicher.
+A delegate type represents references to methods with a particular parameter list and return type. Delegates make it possible to treat methods as entities that can be assigned to variables and passed as parameters. Delegates are similar to the concept of function pointers found in some other languages, but unlike function pointers, delegates are object-oriented and type-safe.
 
-Klasse, Struktur, Schnittstellen- und Delegattypen-Typen unterstützen generische Typen, wobei sie mit anderen Typen parametrisiert werden können.
+Class, struct, interface and delegate types all support generics, whereby they can be parameterized with other types.
 
-Ein Enumerationstyp ist ein eigenständiger Typ mit benannter Konstanten. Jeder Enumerationstyp hat einen zugrunde liegenden Typ, der eine der acht ganzzahligen Typen sein muss. Der Satz von Werten eines Enumerationstyps ist der Satz von Werten des zugrunde liegenden Typs identisch.
+An enum type is a distinct type with named constants. Every enum type has an underlying type, which must be one of the eight integral types. The set of values of an enum type is the same as the set of values of the underlying type.
 
-C# unterstützt ein- und mehrdimensionale Arrays beliebigen Typs. Im Gegensatz zu den oben aufgeführten Typen müssen Arraytypen nicht deklariert werden, bevor sie verwendet werden können. Stattdessen werden Arraytypen erstellt, indem hinter einen Typnamen eckige Klammern gesetzt werden. Z. B. `int[]` ist ein eindimensionales Array von `int`, `int[,]` wird ein zweidimensionales Array von `int`, und `int[][]` ist ein eindimensionales Array des eindimensionalen Arrays von `int`.
+C# supports single- and multi-dimensional arrays of any type. Unlike the types listed above, array types do not have to be declared before they can be used. Instead, array types are constructed by following a type name with square brackets. For example, `int[]` is a single-dimensional array of `int`, `int[,]` is a two-dimensional array of `int`, and `int[][]` is a single-dimensional array of single-dimensional arrays of `int`.
 
-Auf NULL festlegbare Typen auch keine deklariert werden, bevor sie verwendet werden können. Für jeden NULL-Werte `T` wird es ein entsprechenden nullable-Typ `T?`, die einen zusätzlichen Wert enthalten kann `null`. Z. B. `int?` ist ein Typ, der alle 32-Bit-Ganzzahlwert oder den Wert aufnehmen kann `null`.
+Nullable types also do not have to be declared before they can be used. For each non-nullable value type `T` there is a corresponding nullable type `T?`, which can hold an additional value `null`. For instance, `int?` is a type that can hold any 32 bit integer or the value `null`.
 
-# Typsystem ist dahingehend vereinheitlicht, dass ein Wert eines beliebigen Typs als Objekt behandelt werden kann. Jeder Typ in C# ist direkt oder indirekt vom `object`-Klassentyp abgeleitet, und `object` ist die ultimative Basisklasse aller Typen. Werte von Verweistypen werden als Objekte behandelt, indem die Werte einfach als Typ `object` angezeigt werden. Werte von Werttypen werden als Objekte behandelt, indem Sie Ausführung ***Boxing*** und ***unboxing*** Vorgänge. Im folgenden Beispiel wird ein `int`-Wert in ein `object` und wieder in einen `int`-Wert konvertiert.
+C#'s type system is unified such that a value of any type can be treated as an object. Every type in C# directly or indirectly derives from the `object` class type, and `object` is the ultimate base class of all types. Values of reference types are treated as objects simply by viewing the values as type `object`. Values of value types are treated as objects by performing ***boxing*** and ***unboxing*** operations. In the following example, an `int` value is converted to `object` and back again to `int`.
 
 ```csharp
 using System;
@@ -216,111 +208,111 @@ class Test
     }
 }
 ```
-Wenn der Wert eines Werttyps in den Typ konvertiert wird `object`, eine Objektinstanz, die auch "Box" genannte wird zum Speichern des Werts zugeordnet, und der Wert wird in diese Box kopiert. Im Gegensatz dazu, wann ein `object` Verweis auf einen Werttyp umgewandelt wird, wird eine Überprüfung durchgeführt, die das referenzierte Objekt ein Feld des korrekten Datentyps ist und, wenn die Überprüfung erfolgreich ist, wird der Wert in das Feld kopiert.
+When a value of a value type is converted to type `object`, an object instance, also called a "box," is allocated to hold the value, and the value is copied into that box. Conversely, when an `object` reference is cast to a value type, a check is made that the referenced object is a box of the correct value type, and, if the check succeeds, the value in the box is copied out.
 
-Vereinheitlichen Typsystem von # bedeutet, dass Werttypen "bei Bedarf." Objekte werden können Aufgrund der Vereinheitlichung können Bibliotheken für allgemeine Zwecke, die den Typ `object` verwenden, sowohl mit Verweis- als auch Werttypen verwendet werden.
+C#'s unified type system effectively means that value types can become objects "on demand." Because of the unification, general-purpose libraries that use type `object` can be used with both reference types and value types.
 
-Es gibt mehrere Arten von ***Variablen*** in C#, einschließlich Feldern, Arrayelementen, lokalen Variablen und Parametern. Variablen stellen Speicherorte dar, und jede Variable hat einen Typ, der bestimmt, welche Werte können in der Variablen gespeichert wird, wie in der folgenden Tabelle gezeigt.
+There are several kinds of ***variables*** in C#, including fields, array elements, local variables, and parameters. Variables represent storage locations, and every variable has a type that determines what values can be stored in the variable, as shown by the following table.
 
 
-| __Typ der Variablen__    | __Mögliche Inhalt__ |
+| __Type of Variable__    | __Possible Contents__ |
 |-------------------------|-----------------------|
-| Nicht auf NULL festlegbarer Werttyp | Ein Wert genau dieses Typs |
-| Auf NULL festlegbarer Werttyp     | Ein null-Wert oder einen Wert genau dieses Typs |
-| `object`                | Ein null-Verweis, einen Verweis auf ein Objekt von einem beliebigen Verweistyp oder ein Verweis auf einen geschachtelten Wert eines beliebigen Werttyps |
-| Klassentyp              | Ein null-Verweis, einen Verweis auf eine Instanz dieses Klassentyps oder ein Verweis auf eine Instanz einer Klasse abgeleitet werden, von diesem Klassentyp |
-| Schnittstellentyp          | Ein null-Verweis, einen Verweis auf eine Instanz eines Klassentyps, der diesen Schnittstellentyp implementiert oder einen Verweis auf einen geschachtelten Wert eines Werttyps, der diesen Schnittstellentyp implementiert |
-| Arraytyp              | Ein null-Verweis, einen Verweis auf eine Instanz dieses Arraytyps oder ein Verweis auf eine Instanz von eines kompatiblen Arraytyps |
-| Delegattyp           | Ein null-Verweis oder einen Verweis auf eine Instanz dieses Delegattyps |
+| Non-nullable value type | A value of that exact type |
+| Nullable value type     | A null value or a value of that exact type |
+| `object`                | A null reference, a reference to an object of any reference type, or a reference to a boxed value of any value type |
+| Class type              | A null reference, a reference to an instance of that class type, or a reference to an instance of a class derived from that class type |
+| Interface type          | A null reference, a reference to an instance of a class type that implements that interface type, or a reference to a boxed value of a value type that implements that interface type |
+| Array type              | A null reference, a reference to an instance of that array type, or a reference to an instance of a compatible array type |
+| Delegate type           | A null reference or a reference to an instance of that delegate type |
 
-## <a name="expressions"></a>Ausdrücke
+## <a name="expressions"></a>Expressions
 
-***Ausdrücke*** bestehen aus ***Operanden*** und ***Operatoren***. Die Operatoren eines Ausdrucks geben an, welche Operationen auf die Operanden angewendet werden. Beispiele für Operatoren sind `+`, `-`, `*`, `/` und `new`. Beispiele für Operanden sind Literale, Felder, lokale Variablen und Ausdrücke.
+***Expressions*** are constructed from ***operands*** and ***operators***. The operators of an expression indicate which operations to apply to the operands. Examples of operators include `+`, `-`, `*`, `/`, and `new`. Examples of operands include literals, fields, local variables, and expressions.
 
-Wenn ein Ausdruck mehrere Operatoren enthält, bestimmt die ***Rangfolge*** der Operatoren die Reihenfolge, in der die einzelnen Operatoren ausgewertet werden. Der Ausdruck `x + y * z` wird z.B. als `x + (y * z)` ausgewertet, da der `*`-Operator Vorrang vor dem `+`-Operator hat.
+When an expression contains multiple operators, the ***precedence*** of the operators controls the order in which the individual operators are evaluated. For example, the expression `x + y * z` is evaluated as `x + (y * z)` because the `*` operator has higher precedence than the `+` operator.
 
-Die meisten Operatoren können ***überladen*** werden. Das Überladen von Operatoren ermöglicht die Angabe benutzerdefinierter Operatorimplementierungen für Vorgänge, in denen einer der Operanden oder beide einer benutzerdefinierten Klasse oder einem benutzerdefinierten Strukturtyp angehören.
+Most operators can be ***overloaded***. Operator overloading permits user-defined operator implementations to be specified for operations where one or both of the operands are of a user-defined class or struct type.
 
-Die folgende Tabelle enthält die # Operatoren, die Auflistungskategorien "Operator" in der Reihenfolge der Rangfolge von oben nach unten. Operatoren der gleichen Kategorie haben den gleichen Rang.
+The following table summarizes C#'s operators, listing the operator categories in order of precedence from highest to lowest. Operators in the same category have equal precedence.
 
 
-| __Kategorie__                     | __Expression (Ausdruck)__    | __Beschreibung__ |
+| __Category__                     | __Expression__    | __Description__ |
 |----------------------------------|-------------------|-----------------|
-| Primär                          | `x.m`             | Memberzugriff |
-|                                  | `x(...)`          | Methoden- und Delegataufruf |
-|                                  | `x[...]`          | Array- und Indexerzugriff |
-|                                  | `x++`             | Postinkrement |
-|                                  | `x--`             | Postdekrement |
-|                                  | `new T(...)`      | Objekt- und Delegaterstellung |
-|                                  | `new T(...){...}` | Objekterstellung mit Initialisierern |
-|                                  | `new {...}`       | Anonymer Objektinitialisierer |
-|                                  | `new T[...]`      | Arrayerstellung |
-|                                  | `typeof(T)`       | Abrufen `System.Type` für Objekt `T` |
-|                                  | `checked(x)`      | Auswerten von Ausdrücken in geprüftem Kontext |
-|                                  | `unchecked(x)`    | Auswerten von Ausdrücken in nicht geprüftem Kontext |
-|                                  | `default(T)`      | Abrufen des Standardwerts vom Typ `T` |
-|                                  | `delegate {...}`  | Anonyme Funktion (anonyme Methode) |
-| Unär                            | `+x`              | Identität |
+| Primary                          | `x.m`             | Member access |
+|                                  | `x(...)`          | Method and delegate invocation |
+|                                  | `x[...]`          | Array and indexer access |
+|                                  | `x++`             | Post-increment |
+|                                  | `x--`             | Post-decrement |
+|                                  | `new T(...)`      | Object and delegate creation |
+|                                  | `new T(...){...}` | Object creation with initializer |
+|                                  | `new {...}`       | Anonymous object initializer |
+|                                  | `new T[...]`      | Array creation |
+|                                  | `typeof(T)`       | Obtain `System.Type` object for `T` |
+|                                  | `checked(x)`      | Evaluate expression in checked context |
+|                                  | `unchecked(x)`    | Evaluate expression in unchecked context |
+|                                  | `default(T)`      | Obtain default value of type `T` |
+|                                  | `delegate {...}`  | Anonymous function (anonymous method) |
+| Unary                            | `+x`              | Identity |
 |                                  | `-x`              | Negation |
-|                                  | `!x`              | Logische Negation |
-|                                  | `~x`              | Bitweise Negation |
-|                                  | `++x`             | Präinkrement |
-|                                  | `--x`             | Prädekrement |
-|                                  | `(T)x`            | Konvertieren Sie explizit `x` eingeben `T` |
-|                                  | `await x`         | Asynchrones warten `x` abgeschlossen |
-| Multiplikativ                   | `x * y`           | Multiplikation |
+|                                  | `!x`              | Logical negation |
+|                                  | `~x`              | Bitwise negation |
+|                                  | `++x`             | Pre-increment |
+|                                  | `--x`             | Pre-decrement |
+|                                  | `(T)x`            | Explicitly convert `x` to type `T` |
+|                                  | `await x`         | Asynchronously wait for `x` to complete |
+| Multiplicative                   | `x * y`           | Multiplication |
 |                                  | `x / y`           | Division |
-|                                  | `x % y`           | Rest |
-| Additiv                         | `x + y`           | Addition, Zeichenfolgenverkettung, Delegatkombination |
-|                                  | `x - y`           | Subtraktion, Delegatentfernung |
-| Shift                            | `x << y`          | Linksverschiebung |
-|                                  | `x >> y`          | Rechtsverschiebung |
-| Relational und Typtest      | `x < y`           | Kleiner als  |
-|                                  | `x > y`           | Größer als |
-|                                  | `x <= y`          | Kleiner oder gleich  |
-|                                  | `x >= y`          | Größer oder gleich |
-|                                  | `x is T`          | Zurückgeben `true` Wenn `x` ist eine `T`, `false` andernfalls |
-|                                  | `x as T`          | Zurückgeben `x` als `T`, oder `null` Wenn `x` kein `T` |
-| Gleichheit                         | `x == y`          | Gleich      |
-|                                  | `x != y`          | Ungleich |
-| Logisches AND                      | `x & y`           | Ganzzahliges bitweises AND, boolesches logisches AND |
-| Logisches XOR                      | `x ^ y`           | Ganzzahliges bitweises XOR, boolesches logisches XOR |
-| Logisches OR                       | <code>x &#124; y</code> | Ganzzahliges bitweises OR, boolesches logisches OR |
-| Bedingtes AND                  | `x && y`          | Wertet `y` nur, wenn `x` ist `true` |
-| Bedingtes OR                   | <code>x &#124;&#124; y</code> | Wertet `y` nur, wenn `x` ist `false` |
-| NULL-Sammeloperator                  | `X ?? y`          | Ergibt `y` Wenn `x` ist `null`zu `x` andernfalls |
-| Bedingt                      | `x ? y : z`       | Wertet `y` Wenn `x` ist `true`, `z` Wenn `x` ist `false` |
-| Zuweisung oder anonyme Funktion | `x = y`           | Zuweisung |
-|                                  | `x op= y`         | Zusammengesetzte Zuweisung; Operatoren werden unterstützt `*=` `/=` `%=` `+=` `-=` `<<=` `>>=` `&=` `^=` <code>&#124;=</code> |
-|                                  | `(T x) => y`      | Anonyme Funktion (Lambda-Ausdruck) |
+|                                  | `x % y`           | Remainder |
+| Additive                         | `x + y`           | Addition, string concatenation, delegate combination |
+|                                  | `x - y`           | Subtraction, delegate removal |
+| Shift                            | `x << y`          | Shift left |
+|                                  | `x >> y`          | Shift right |
+| Relational and type testing      | `x < y`           | Less than |
+|                                  | `x > y`           | Greater than |
+|                                  | `x <= y`          | Less than or equal |
+|                                  | `x >= y`          | Greater than or equal |
+|                                  | `x is T`          | Return `true` if `x` is a `T`, `false` otherwise |
+|                                  | `x as T`          | Return `x` typed as `T`, or `null` if `x` is not a `T` |
+| Equality                         | `x == y`          | Equal      |
+|                                  | `x != y`          | Not equal |
+| Logical AND                      | `x & y`           | Integer bitwise AND, boolean logical AND |
+| Logical XOR                      | `x ^ y`           | Integer bitwise XOR, boolean logical XOR |
+| Logical OR                       | <code>x &#124; y</code> | Integer bitwise OR, boolean logical OR |
+| Conditional AND                  | `x && y`          | Evaluates `y` only if `x` is `true` |
+| Conditional OR                   | <code>x &#124;&#124; y</code> | Evaluates `y` only if `x` is `false` |
+| Null coalescing                  | `X ?? y`          | Evaluates to `y` if `x` is `null`, to `x` otherwise |
+| Conditional                      | `x ? y : z`       | Evaluates `y` if `x` is `true`, `z` if `x` is `false` |
+| Assignment or anonymous function | `x = y`           | Assignment |
+|                                  | `x op= y`         | Compound assignment; supported operators are `*=` `/=` `%=` `+=` `-=` `<<=` `>>=` `&=` `^=` <code>&#124;=</code> |
+|                                  | `(T x) => y`      | Anonymous function (lambda expression) |
 
-## <a name="statements"></a>Anweisungen
+## <a name="statements"></a>Statements
 
-Die Aktionen eines Programms werden mit ***Anweisungen*** ausgedrückt. C# unterstützt verschiedene Arten von Anweisungen, von denen ein Teil als eingebettete Anweisungen definiert ist.
+The actions of a program are expressed using ***statements***. C# supports several different kinds of statements, a number of which are defined in terms of embedded statements.
 
-Ein ***Block*** ermöglicht, mehrere Anweisungen in Kontexten zu schreiben, in denen eine einzelne Anweisung zulässig ist. Ein Block besteht aus einer Liste von Anweisungen, die zwischen den Trennzeichen `{` und `}` geschrieben sind.
+A ***block*** permits multiple statements to be written in contexts where a single statement is allowed. A block consists of a list of statements written between the delimiters `{` and `}`.
 
-***Deklarationsanweisungen*** werden verwendet, um lokale Variablen und Konstanten deklarieren.
+***Declaration statements*** are used to declare local variables and constants.
 
-***Ausdrucksanweisungen*** werden zum Auswerten von Ausdrücken verwendet. Ausdrücke, die als Anweisungen verwendet werden können, enthalten Methodenaufrufe, objektzuordnungen mit dem `new` Operator, Zuweisungen mit `=` und die Verbundzuweisungsoperatoren, inkrementier- und dekrementiervorgänge-Vorgänge, die unter Verwendung der `++`und `--` Operatoren und await-Ausdrücken.
+***Expression statements*** are used to evaluate expressions. Expressions that can be used as statements include method invocations, object allocations using the `new` operator, assignments using `=` and the compound assignment operators, increment and decrement operations using the `++` and `--` operators and await expressions.
 
-***Auswahlanweisungen*** werden verwendet, um eine Anzahl von möglichen Anweisungen für die Ausführung anhand des Werts eines Ausdrucks auszuwählen. Zu dieser Gruppe gehören die `if`- und `switch`-Anweisungen.
+***Selection statements*** are used to select one of a number of possible statements for execution based on the value of some expression. In this group are the `if` and `switch` statements.
 
-***Iterationsanweisungen*** werden verwendet, um eine eingebettete Anweisung wiederholt auszuführen. Zu dieser Gruppe gehören die `while`-, `do`-, `for`- und `foreach`-Anweisungen.
+***Iteration statements*** are used to repeatedly execute an embedded statement. In this group are the `while`, `do`, `for`, and `foreach` statements.
 
-***Sprunganweisungen*** werden verwendet, um die Steuerung zu übertragen. Zu dieser Gruppe gehören die `break`-, `continue`-, `goto`-, `throw`-, `return`- und `yield`-Anweisungen.
+***Jump statements*** are used to transfer control. In this group are the `break`, `continue`, `goto`, `throw`, `return`, and `yield` statements.
 
-Mit der `try`... `catch`-Anweisung werden Ausnahmen abgefangen, die während der Ausführung eines Blocks auftreten, und mit der `try`... `finally`-Anweisung wird Finalisierungscode angegeben, der immer ausgeführt wird, unabhängig davon, ob eine Ausnahme aufgetreten ist oder nicht.
+The `try`...`catch` statement is used to catch exceptions that occur during execution of a block, and the `try`...`finally` statement is used to specify finalization code that is always executed, whether an exception occurred or not.
 
-Die `checked` und `unchecked` Anweisungen werden verwendet, um den Kontext für arithmetische Operationen für ganzzahlige Typen und Konvertierungen für die überlaufüberprüfung zu steuern.
+The `checked` and `unchecked` statements are used to control the overflow checking context for integral-type arithmetic operations and conversions.
 
-Die `lock`-Anweisung wird verwendet, um die Sperre für gegenseitigen Ausschluss für ein bestimmtes Objekt abzurufen, eine Anweisung auszuführen und die Sperre aufzuheben.
+The `lock` statement is used to obtain the mutual-exclusion lock for a given object, execute a statement, and then release the lock.
 
-Die `using`-Anweisung wird verwendet, um eine Ressource abzurufen, eine Anweisung auszuführen und dann diese Ressource zu verwerfen.
+The `using` statement is used to obtain a resource, execute a statement, and then dispose of that resource.
 
-Im folgenden finden Sie Beispiele für jede Art von Anweisung
+Below are examples of each kind of statement
 
-__Deklarationen von lokalen Variablen__
+__Local variable declarations__
 
 ```csharp
 static void Main() {
@@ -332,7 +324,7 @@ static void Main() {
 ```
 
 
-__Deklaration von lokalen Konstanten__
+__Local constant declaration__
 
 ```csharp
 static void Main() {
@@ -343,7 +335,7 @@ static void Main() {
 ```
 
 
-__Ausdrucksanweisung__
+__Expression statement__
 
 ```csharp
 static void Main() {
@@ -355,7 +347,7 @@ static void Main() {
 }
 ```
 
-__`if` Anweisung__
+__`if` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -369,7 +361,7 @@ static void Main(string[] args) {
 ```
 
 
-__`switch` Anweisung__
+__`switch` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -388,7 +380,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`while` Anweisung__
+__`while` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -401,7 +393,7 @@ static void Main(string[] args) {
 ```
 
 
-__`do` Anweisung__
+__`do` statement__
 
 ```csharp
 static void Main() {
@@ -413,7 +405,7 @@ static void Main() {
 }
 ```
 
-__`for` Anweisung__
+__`for` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -423,7 +415,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`foreach` Anweisung__
+__`foreach` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -433,7 +425,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`break` Anweisung__
+__`break` statement__
 
 ```csharp
 static void Main() {
@@ -445,7 +437,7 @@ static void Main() {
 }
 ```
 
-__`continue` Anweisung__
+__`continue` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -456,7 +448,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`goto` Anweisung__
+__`goto` statement__
 
 ```csharp
 static void Main(string[] args) {
@@ -469,7 +461,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`return` Anweisung__
+__`return` statement__
 
 ```csharp
 static int Add(int a, int b) {
@@ -482,7 +474,7 @@ static void Main() {
 }
 ```
 
-__`yield` Anweisung__
+__`yield` statement__
 
 ```csharp
 static IEnumerable<int> Range(int from, int to) {
@@ -499,7 +491,7 @@ static void Main() {
 }
 ```
 
-__`throw` und `try` Anweisungen__
+__`throw` and `try` statements__
 
 ```csharp
 static double Divide(double x, double y) {
@@ -525,7 +517,7 @@ static void Main(string[] args) {
 }
 ```
 
-__`checked` und `unchecked` Anweisungen__
+__`checked` and `unchecked` statements__
 
 ```csharp
 static void Main() {
@@ -539,7 +531,7 @@ static void Main() {
 }
 ```
 
-__`lock` Anweisung__
+__`lock` statement__
 
 ```csharp
 class Account
@@ -556,7 +548,7 @@ class Account
 }
 ```
 
-__`using` Anweisung__
+__`using` statement__
 
 ```csharp
 static void Main() {
@@ -568,13 +560,13 @@ static void Main() {
 }
 ```
 
-## <a name="classes-and-objects"></a>Klassen und Objekte
+## <a name="classes-and-objects"></a>Classes and objects
 
-***Klassen*** sind die grundlegendsten der C#-Typen. Eine Klasse ist eine Datenstruktur, die einen Zustand (Felder) und Aktionen (Methoden und andere Funktionsmember) in einer einzigen Einheit kombiniert. Eine Klasse stellt eine Definition für dynamisch erstellte ***Instanzen*** der Klasse, auch bekannt als ***Objekte*** bereit. Klassen unterstützen ***Vererbung*** und ***Polymorphie***. Dies sind Mechanismen, durch die ***abgeleitete Klassen*** erweitert und ***Basisklassen*** spezialisiert werden können.
+***Classes*** are the most fundamental of C#'s types. A class is a data structure that combines state (fields) and actions (methods and other function members) in a single unit. A class provides a definition for dynamically created ***instances*** of the class, also known as ***objects***. Classes support ***inheritance*** and ***polymorphism***, mechanisms whereby ***derived classes*** can extend and specialize ***base classes***.
 
-Neue Klassen werden mithilfe von Klassendeklarationen erstellt. Eine Klassendeklaration beginnt mit einem Header, der die Attribute und Modifizierer der Klasse, den Namen der Klasse, die Basisklasse (sofern vorhanden) und die von der Klasse implementierten Schnittstellen angibt. Auf den Header folgt der Klassenkörper. Dieser besteht aus einer Liste der Memberdeklarationen, die zwischen den Trennzeichen `{` und `}` eingefügt werden.
+New classes are created using class declarations. A class declaration starts with a header that specifies the attributes and modifiers of the class, the name of the class, the base class (if given), and the interfaces implemented by the class. The header is followed by the class body, which consists of a list of member declarations written between the delimiters `{` and `}`.
 
-Nachfolgend sehen Sie eine Deklaration einer einfachen Klasse namens `Point`:
+The following is a declaration of a simple class named `Point`:
 
 ```csharp
 public class Point
@@ -587,50 +579,50 @@ public class Point
     }
 }
 ```
-Instanzen von Klassen werden mit dem `new`-Operator erstellt. Dieser reserviert Speicher für eine neue Instanz, ruft einen Konstruktor zum Initialisieren der Instanz auf und gibt einen Verweis auf die Instanz zurück. Die folgenden Anweisungen erstellen Sie zwei `Point` Objekte und Verweise auf diese Objekte in zwei Variablen zu speichern:
+Instances of classes are created using the `new` operator, which allocates memory for a new instance, invokes a constructor to initialize the instance, and returns a reference to the instance. The following statements create two `Point` objects and store references to those objects in two variables:
 
 ```
 Point p1 = new Point(0, 0);
 Point p2 = new Point(10, 20);
 ```
-Der von einem Objekt belegte Arbeitsspeicher wird automatisch freigegeben, wenn das Objekt nicht mehr verwendet wird. Es ist weder erforderlich noch möglich, die Zuweisung von Objekten in C# explizit aufzuheben.
+The memory occupied by an object is automatically reclaimed when the object is no longer in use. It is neither necessary nor possible to explicitly deallocate objects in C#.
 
-### <a name="members"></a>Member
+### <a name="members"></a>Members
 
-Die Member einer Klasse sind entweder ***statische Member*** oder ***Instanzmember***. Statische Member gehören zu Klassen, Instanzmember gehören zu Objekten (Instanzen von Klassen).
+The members of a class are either ***static members*** or ***instance members***. Static members belong to classes, and instance members belong to objects (instances of classes).
 
-Die folgende Tabelle enthält eine Übersicht über die Arten von Membern, die eine Klasse enthalten kann.
+The following table provides an overview of the kinds of members a class can contain.
 
 
-| __Member__   | __Beschreibung__ |
+| __Member__   | __Description__ |
 |------------  |-----------------|
-| Konstanten    | Konstante Werte, die der Klasse zugeordnet sind |
-| Felder       | Variablen der Klasse |
-| Methoden      | Berechnungen und Aktionen, die von der Klasse ausgeführt werden |
-| Eigenschaften   | Aktionen im Zusammenhang mit dem Lesen und Schreiben von benannten Eigenschaften der Klasse |
-| Indexer     | Aktionen im Zusammenhang mit dem Indizieren von Instanzen der Klasse, z.B. einem Array |
-| Ereignisse       | Benachrichtigungen, die von der Klasse generiert werden können |
-| Operatoren    | Operatoren für Konvertierungen und Ausdrücke, die von der Klasse unterstützt werden |
-| Konstruktoren | Aktionen, die zum Initialisieren von Instanzen der Klasse oder der Klasse selbst benötigt werden |
-| Destruktoren  | Aktionen, die ausgeführt werden, bevor Instanzen der Klasse dauerhaft verworfen werden |
-| Typen        | Geschachtelte Typen, die von der Klasse deklariert werden |
+| Constants    | Constant values associated with the class |
+| Fields       | Variables of the class |
+| Methods      | Computations and actions that can be performed by the class |
+| Properties   | Actions associated with reading and writing named properties of the class |
+| Indexers     | Actions associated with indexing instances of the class like an array |
+| Events       | Notifications that can be generated by the class |
+| Operators    | Conversions and expression operators supported by the class |
+| Constructors | Actions required to initialize instances of the class or the class itself |
+| Destructors  | Actions to perform before instances of the class are permanently discarded |
+| Types        | Nested types declared by the class |
 
-### <a name="accessibility"></a>Zugriff
+### <a name="accessibility"></a>Accessibility
 
-Jeder Member einer Klasse ist mit einem Zugriff verknüpft, der die Regionen des Programmtexts steuert, die auf den Member zugreifen können. Es gibt fünf mögliche Formen des Zugriffs. Diese werden in der folgenden Tabelle zusammengefasst.
+Each member of a class has an associated accessibility, which controls the regions of program text that are able to access the member. There are five possible forms of accessibility. These are summarized in the following table.
 
 
-| __Barrierefreiheit__    | __Bedeutung__ |
+| __Accessibility__    | __Meaning__ |
 |----------------------|-----------------|
-| `public`             | Der Zugriff ist nicht eingeschränkt. |
-| `protected`          | Der Zugriff ist auf diese Klasse oder auf von dieser Klasse abgeleitete Klassen beschränkt. |
-| `internal`           | Der Zugriff ist auf dieses Programm beschränkt. |
-| `protected internal` | Der Zugriff ist auf dieses Programm oder auf von dieser Klasse abgeleitete Klassen beschränkt. |
-| `private`            | Der Zugriff ist auf diese Klasse beschränkt. |
+| `public`             | Access not limited |
+| `protected`          | Access limited to this class or classes derived from this class |
+| `internal`           | Access limited to this program |
+| `protected internal` | Access limited to this program or classes derived from this class |
+| `private`            | Access limited to this class |
 
-### <a name="type-parameters"></a>Typparameter
+### <a name="type-parameters"></a>Type parameters
 
-Eine Klassendefinition kann einen Satz an Typparametern angeben, indem eine Liste der Typparameternamen in spitzen Klammern an den Klassennamen angehängt wird. Der Typparameter können die im Text der Klassendeklarationen verwendet werden, um der Member der Klasse zu definieren. Im folgenden Beispiel lauten die Typparameter von `Pair` `TFirst` und `TSecond`:
+A class definition may specify a set of type parameters by following the class name with angle brackets enclosing a list of type parameter names. The type parameters can the be used in the body of the class declarations to define the members of the class. In the following example, the type parameters of `Pair` are `TFirst` and `TSecond`:
 
 ```csharp
 public class Pair<TFirst,TSecond>
@@ -639,21 +631,21 @@ public class Pair<TFirst,TSecond>
     public TSecond Second;
 }
 ```
-Ein Klassentyp, der zum Akzeptieren von Typparametern deklariert ist, wird einen Typ generische Klasse aufgerufen. Struktur-, Schnittstellen- und Delegattypen können auch generisch sein.
+A class type that is declared to take type parameters is called a generic class type. Struct, interface and delegate types can also be generic.
 
-Wenn die generische Klasse verwendet wird, müssen für jeden der Typparameter Typargumente angegeben werden:
+When the generic class is used, type arguments must be provided for each of the type parameters:
 
 ```csharp
 Pair<int,string> pair = new Pair<int,string> { First = 1, Second = "two" };
 int i = pair.First;     // TFirst is int
 string s = pair.Second; // TSecond is string
 ```
-Ein generischer Typ mit den Typargumente angegeben wurden, wie z. B. `Pair<int,string>
-    ` oben einen konstruierten Typ aufgerufen wird.
+A generic type with type arguments provided, like `Pair<int,string>
+    ` above, is called a constructed type.
 
-### <a name="base-classes"></a>Basisklassen
+### <a name="base-classes"></a>Base classes
 
-Eine Klassendeklaration kann eine Basisklasse angeben, indem ein Doppelpunkt und der Name der Basisklasse an den Klassennamen und die Typparameter angehängt wird. Das Auslassen einer Basisklassenspezifikation ist dasselbe wie eine Ableitung vom Typ `object`. Im folgenden Beispiel ist `Point` die Basisklasse von `Point3D`, und die Basisklasse von `Point` ist `object`:
+A class declaration may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type `object`. In the following example, the base class of `Point3D` is `Point`, and the base class of `Point` is `object`:
 
 ```csharp
 public class Point
@@ -675,24 +667,24 @@ public class Point3D: Point
     }
 }
 ```
-Eine Klasse erbt die Member der zugehörigen Basisklasse. Vererbung bedeutet, dass eine Klasse implizit alle Member der Basisklasse, mit Ausnahme von der Instanz und statische Konstruktoren und Destruktoren der Basisklasse enthält. Eine abgeleitete Klasse kann den geerbten Membern neue Member hinzufügen, aber die Definition eines geerbten Members kann nicht entfernt werden. Im vorherigen Beispiel erbt `Point3D` die Felder `x` und `y` von `Point`, und jede `Point3D`-Instanz enthält drei Felder: `x`, `y` und `z`.
+A class inherits the members of its base class. Inheritance means that a class implicitly contains all members of its base class, except for the instance and static constructors, and the destructors of the base class. A derived class can add new members to those it inherits, but it cannot remove the definition of an inherited member. In the previous example, `Point3D` inherits the `x` and `y` fields from `Point`, and every `Point3D` instance contains three fields, `x`, `y`, and `z`.
 
-Ein Klassentyp kann implizit in einen beliebigen zugehörigen Basisklassentyp konvertiert werden. Deshalb kann eine Variable eines Klassentyps auf eine Instanz dieser Klasse oder auf eine Instanz einer beliebigen abgeleiteten Klasse verweisen. Beispielsweise kann in den vorherigen Klassendeklarationen eine Variable vom Typ `Point` entweder auf `Point` oder auf `Point3D` verweisen:
+An implicit conversion exists from a class type to any of its base class types. Therefore, a variable of a class type can reference an instance of that class or an instance of any derived class. For example, given the previous class declarations, a variable of type `Point` can reference either a `Point` or a `Point3D`:
 
 ```csharp
 Point a = new Point(10, 20);
 Point b = new Point3D(10, 20, 30);
 ```
 
-### <a name="fields"></a>Felder
+### <a name="fields"></a>Fields
 
-Ein Feld ist eine Variable, die mit einer Klasse oder eine Instanz einer Klasse zugeordnet ist.
+A field is a variable that is associated with a class or with an instance of a class.
 
-Ein Feld deklariert, mit der `static` -Modifizierer definiert eine ***statisches Feld***. Ein statisches Feld identifiziert genau einen Speicherort. Unabhängig davon, wie viele Instanzen einer Klasse erstellt werden, gibt es nur eine Kopie eines statischen Felds.
+A field declared with the `static` modifier defines a ***static field***. A static field identifies exactly one storage location. No matter how many instances of a class are created, there is only ever one copy of a static field.
 
-Ein Feld deklariert, ohne die `static` -Modifizierer definiert eine ***Instanzenfeld***. Jede Instanz einer Klasse enthält eine separate Kopie aller Instanzfelder dieser Klasse.
+A field declared without the `static` modifier defines an ***instance field***. Every instance of a class contains a separate copy of all the instance fields of that class.
 
-Im folgenden Beispiel weist jede Instanz der `Color`-Klasse eine separate Kopie der Instanzfelder `r`, `g` und `b` auf, aber es gibt nur eine Kopie der statischen Felder `Black`, `White`, `Red`, `Green` und `Blue`:
+In the following example, each instance of the `Color` class has a separate copy of the `r`, `g`, and `b` instance fields, but there is only one copy of the `Black`, `White`, `Red`, `Green`, and `Blue` static fields:
 
 ```csharp
 public class Color
@@ -711,27 +703,27 @@ public class Color
     }
 }
 ```
-Wie im vorherigen Beispiel gezeigt, können ***schreibgeschützte Felder*** mit einem `readonly`-Modifizierer deklariert werden. Zuweisung zu einem `readonly` Feld kann nur als Teil einer Deklaration oder in einem Konstruktor derselben Klasse auftreten.
+As shown in the previous example, ***read-only fields*** may be declared with a `readonly` modifier. Assignment to a `readonly` field can only occur as part of the field's declaration or in a constructor in the same class.
 
-### <a name="methods"></a>Methoden
+### <a name="methods"></a>Methods
 
-Eine ***Methode*** ist ein Member, das eine Berechnung oder eine Aktion implementiert, die durch ein Objekt oder eine Klasse durchgeführt werden kann. Auf ***statische Methoden*** wird über die Klasse zugegriffen. Auf ***Instanzmethoden*** wird über Instanzen der Klasse zugegriffen.
+A ***method*** is a member that implements a computation or action that can be performed by an object or class. ***Static methods*** are accessed through the class. ***Instance methods*** are accessed through instances of the class.
 
-Methoden verfügen über eine (möglicherweise leere) Liste von ***Parameter***, die darstellen, Werte oder Variablenverweise an die Methode übergeben, und ein ***Rückgabetyp***, der angibt, dass der Typ des Werts berechnet und zurückgegeben, indem die Methode. Der Rückgabetyp einer Methode ist `void` , wenn sie keinen Wert zurückgibt.
+Methods have a (possibly empty) list of ***parameters***, which represent values or variable references passed to the method, and a ***return type***, which specifies the type of the value computed and returned by the method. A method's return type is `void` if it does not return a value.
 
-Ebenso wie Typen können Methoden einen Satz an Typparametern aufweisen, für den beim Aufruf der Methode Typargumente angegeben werden müssen. Im Gegensatz zu Typen können die Typargumente häufig aus den Argumenten eines Methodenaufrufs abgeleitet werden und müssen nicht explizit angegeben werden.
+Like types, methods may also have a set of type parameters, for which type arguments must be specified when the method is called. Unlike types, the type arguments can often be inferred from the arguments of a method call and need not be explicitly given.
 
-Die ***Signatur*** einer Methode muss innerhalb der Klasse eindeutig sein, in der die Methode deklariert ist. Die Signatur einer Methode besteht aus dem Namen der Methode, der Anzahl von Typparametern und der Anzahl, den Modifizierern und den Typen der zugehörigen Parameter. Die Signatur einer Methode umfasst nicht den Rückgabetyp.
+The ***signature*** of a method must be unique in the class in which the method is declared. The signature of a method consists of the name of the method, the number of type parameters and the number, modifiers, and types of its parameters. The signature of a method does not include the return type.
 
-#### <a name="parameters"></a>Parameter
+#### <a name="parameters"></a>Parameters
 
-Parameter werden dazu verwendet, Werte oder Variablenverweise an Methoden zu übergeben. Die Parameter einer Methode erhalten ihre tatsächlichen Werte über ***Argumente***, die angegeben werden, wenn die Methode aufgerufen wird. Es gibt vier Arten von Parametern: Wertparameter, Verweisparameter, Ausgabeparameter und Parameterarrays.
+Parameters are used to pass values or variable references to methods. The parameters of a method get their actual values from the ***arguments*** that are specified when the method is invoked. There are four kinds of parameters: value parameters, reference parameters, output parameters, and parameter arrays.
 
-Ein ***Wertparameter*** wird zum Übergeben von Eingabeparametern verwendet. Ein Wertparameter entspricht einer lokalen Variablen, die ihren Anfangswert von dem Argument erhält, das für den Parameter übergeben wurde. Änderungen an einem Wertparameter wirken sich nicht auf das Argument aus, das für den Parameter übergeben wurde.
+A ***value parameter*** is used for input parameter passing. A value parameter corresponds to a local variable that gets its initial value from the argument that was passed for the parameter. Modifications to a value parameter do not affect the argument that was passed for the parameter.
 
-Wertparameter können optional sein, indem ein Standardwert festgelegt wird, damit die zugehörigen Argumente weggelassen werden können.
+Value parameters can be optional, by specifying a default value so that corresponding arguments can be omitted.
 
-Ein ***Verweisparameter*** wird sowohl für die Übergabe von Eingabe- als auch Ausgabeparametern verwendet. Das für einen Verweisparameter übergebene Argument muss eine Variable sein, und während der Ausführung der Methode repräsentiert der Verweisparameter denselben Speicherort wie die Argumentvariable. Ein Verweisparameter wird mit dem `ref`-Modifizierer deklariert. Das folgende Beispiel veranschaulicht die Verwendung des `ref`-Parameters.
+A ***reference parameter*** is used for both input and output parameter passing. The argument passed for a reference parameter must be a variable, and during execution of the method, the reference parameter represents the same storage location as the argument variable. A reference parameter is declared with the `ref` modifier. The following example shows the use of `ref` parameters.
 
 ```csharp
 using System;
@@ -751,7 +743,7 @@ class Test
     }
 }
 ```
-Ein ***Ausgabeparameter*** wird zum Übergeben von Ausgabeparametern verwendet. Ein Ausgabeparameter ähnelt einem Verweisparameter, mit dem Unterschied, dass der Anfangswert des vom Aufrufer bereitgestellten Arguments nicht von Bedeutung ist. Ein Ausgabeparameter wird mit dem `out`-Modifizierer deklariert. Das folgende Beispiel veranschaulicht die Verwendung des `out`-Parameters.
+An ***output parameter*** is used for output parameter passing. An output parameter is similar to a reference parameter except that the initial value of the caller-provided argument is unimportant. An output parameter is declared with the `out` modifier. The following example shows the use of `out` parameters.
 
 ```csharp
 using System;
@@ -770,7 +762,7 @@ class Test
     }
 }
 ```
-Ein ***Parameterarray*** ermöglicht es, eine variable Anzahl von Argumenten an eine Methode zu übergeben. Ein Parameterarray wird mit dem `params`-Modifizierer deklariert. Nur der letzte Parameter einer Methode kann ein Parameterarray sein, und es muss sich um ein eindimensionales Parameterarray handeln. Die `Write` und `WriteLine` Methoden der `System.Console` -Klasse sind gute Beispiele für die Verwendung eines Parameterarrays. Sie werden folgendermaßen deklariert.
+A ***parameter array*** permits a variable number of arguments to be passed to a method. A parameter array is declared with the `params` modifier. Only the last parameter of a method can be a parameter array, and the type of a parameter array must be a single-dimensional array type. The `Write` and `WriteLine` methods of the `System.Console` class are good examples of parameter array usage. They are declared as follows.
 
 ```csharp
 public class Console
@@ -780,12 +772,12 @@ public class Console
     ...
 }
 ```
-Innerhalb einer Methode mit einem Parameterarray verhält sich das Parameterarray wie ein regulärer Parameter des Arraytyps. Beim Aufruf einer Methode mit einem Parameterarray ist es jedoch möglich, entweder ein einzelnes Argument des Parameterarraytyps oder eine beliebige Anzahl von Argumenten des Elementtyps des Parameterarrays zu übergeben. Im letzteren Fall wird automatisch eine Arrayinstanz erstellt und mit den vorgegebenen Argumenten initialisiert. Dieses Beispiel:
+Within a method that uses a parameter array, the parameter array behaves exactly like a regular parameter of an array type. However, in an invocation of a method with a parameter array, it is possible to pass either a single argument of the parameter array type or any number of arguments of the element type of the parameter array. In the latter case, an array instance is automatically created and initialized with the given arguments. This example
 
 ```csharp
 Console.WriteLine("x={0} y={1} z={2}", x, y, z);
 ```
-...entspricht dem folgenden Code:
+is equivalent to writing the following.
 
 ```csharp
 string s = "x={0} y={1} z={2}";
@@ -796,11 +788,11 @@ args[2] = z;
 Console.WriteLine(s, args);
 ```
 
-#### <a name="method-body-and-local-variables"></a>Methodenkörper und lokale Variablen
+#### <a name="method-body-and-local-variables"></a>Method body and local variables
 
-Der Methodenkörper gibt an, die Anweisungen ausgeführt werden, wenn die Methode aufgerufen wird.
+A method's body specifies the statements to execute when the method is invoked.
 
-Ein Methodenkörper kann Variablen deklarieren, die für den Aufruf der Methode spezifisch sind. Diese Variable werden ***lokale Variablen*** genannt. Die Deklaration einer lokalen Variable gibt einen Typnamen, einen Variablennamen und eventuell einen Anfangswert an. Im folgenden Beispiel wird eine lokale Variable `i` mit einem Anfangswert von 0 und einer lokalen Variablen `j` ohne Anfangswert deklariert.
+A method body can declare variables that are specific to the invocation of the method. Such variables are called ***local variables***. A local variable declaration specifies a type name, a variable name, and possibly an initial value. The following example declares a local variable `i` with an initial value of zero and a local variable `j` with no initial value.
 
 ```csharp
 using System;
@@ -818,17 +810,17 @@ class Squares
     }
 }
 ```
-In C# muss eine lokale Variable ***definitiv zugewiesen*** sein, bevor ihr Wert abgerufen werden kann. Wenn beispielsweise die vorherige Deklaration von `i` keinen Anfangswert enthielte, würde der Compiler bei der nachfolgenden Verwendung von `i` einen Fehler melden, weil `i` zu diesen Zeitpunkten im Programm nicht definitiv zugewiesen wäre.
+C# requires a local variable to be ***definitely assigned*** before its value can be obtained. For example, if the declaration of the previous `i` did not include an initial value, the compiler would report an error for the subsequent usages of `i` because `i` would not be definitely assigned at those points in the program.
 
-Eine Methode kann `return`-Anweisungen verwenden, um die Steuerung an den zugehörigen Aufrufer zurückzugeben. In einer Methode, die `void` zurückgibt, können `return`-Anweisungen keinen Ausdruck angeben. In einer Methode zurückgeben von nicht -`void`, `return` -Anweisungen müssen einen Ausdruck, der den Rückgabewert berechnet enthalten.
+A method can use `return` statements to return control to its caller. In a method returning `void`, `return` statements cannot specify an expression. In a method returning non-`void`, `return` statements must include an expression that computes the return value.
 
-#### <a name="static-and-instance-methods"></a>Statische Methoden und Instanzmethoden
+#### <a name="static-and-instance-methods"></a>Static and instance methods
 
-Eine Methode deklariert, mit einem `static` Modifizierer ist ein ***statische Methode***. Eine statische Methode führt keine Vorgänge für eine spezifische Instanz aus und kann nur direkt auf statische Member zugreifen.
+A method declared with a `static` modifier is a ***static method***. A static method does not operate on a specific instance and can only directly access static members.
 
-Eine Methode deklariert werden, ohne eine `static` Modifizierer ist ein ***Instanzmethode***. Eine Instanzmethode führt Vorgänge für eine spezifische Instanz aus und kann sowohl auf statische Member als auch auf Instanzmember zugreifen. Auf die Instanz, für die eine Instanzmethode aufgerufen wurde, kann explizit als `this` zugegriffen werden. Es ist ein Fehler, in einer statischen Methode auf `this` zu verweisen.
+A method declared without a `static` modifier is an ***instance method***. An instance method operates on a specific instance and can access both static and instance members. The instance on which an instance method was invoked can be explicitly accessed as `this`. It is an error to refer to `this` in a static method.
 
-Die folgende `Entity`-Klasse umfasst sowohl statische Member als auch Instanzmember.
+The following `Entity` class has both static and instance members.
 
 ```csharp
 class Entity
@@ -853,11 +845,11 @@ class Entity
     }
 }
 ```
-Jede `Entity`-Instanz enthält eine Seriennummer (und vermutlich weitere Informationen, die hier nicht angezeigt werden). Der `Entity`-Konstruktor (der einer Instanzmethode ähnelt) initialisiert die neue Instanz mit der nächsten verfügbaren Seriennummer. Da der Konstruktor ein Instanzmember ist, kann er sowohl auf das `serialNo`-Instanzfeld als auch auf das statische `nextSerialNo`-Feld zugreifen.
+Each `Entity` instance contains a serial number (and presumably some other information that is not shown here). The `Entity` constructor (which is like an instance method) initializes the new instance with the next available serial number. Because the constructor is an instance member, it is permitted to access both the `serialNo` instance field and the `nextSerialNo` static field.
 
-Die statischen Methoden `GetNextSerialNo` und `SetNextSerialNo` können auf das statische Feld `nextSerialNo` zugreifen, aber es wäre ein Fehler, über diese Methoden direkt auf das Instanzfeld `serialNo` zuzugreifen.
+The `GetNextSerialNo` and `SetNextSerialNo` static methods can access the `nextSerialNo` static field, but it would be an error for them to directly access the `serialNo` instance field.
 
-Das folgende Beispiel zeigt die Verwendung der `Entity` Klasse.
+The following example shows the use of the `Entity` class.
 
 ```csharp
 using System;
@@ -874,19 +866,19 @@ class Test
     }
 }
 ```
-Beachten Sie, dass die statischen Methoden `SetNextSerialNo` und `GetNextSerialNo` für die Klasse aufgerufen werden, während die `GetSerialNo`-Instanzmethode für Instanzen der Klasse aufgerufen wird.
+Note that the `SetNextSerialNo` and `GetNextSerialNo` static methods are invoked on the class whereas the `GetSerialNo` instance method is invoked on instances of the class.
 
-#### <a name="virtual-override-and-abstract-methods"></a>Virtuelle, überschriebene und abstrakte Methoden
+#### <a name="virtual-override-and-abstract-methods"></a>Virtual, override, and abstract methods
 
-Wenn die Deklaration einer Instanzmethode einen `virtual`-Modifizierer enthält, wird die Methode als ***virtuelle Methode*** bezeichnet. Wenn kein `virtual` Modifizierer vorhanden ist, wird die Methode gilt eine ***nicht virtuellen Methode***.
+When an instance method declaration includes a `virtual` modifier, the method is said to be a ***virtual method***. When no `virtual` modifier is present, the method is said to be a ***non-virtual method***.
 
-Beim Aufruf einer virtuellen Methode bestimmt der ***Laufzeittyp*** der Instanz, für die der Aufruf erfolgt, die tatsächlich aufzurufende Methodenimplementierung. Beim Aufruf einer nicht virtuellen Methode ist der ***Kompilierzeittyp*** der bestimmende Faktor.
+When a virtual method is invoked, the ***run-time type*** of the instance for which that invocation takes place determines the actual method implementation to invoke. In a nonvirtual method invocation, the ***compile-time type*** of the instance is the determining factor.
 
-Eine virtuelle Methode kann in einer abgeleiteten Klasse ***überschrieben*** werden. Wenn eine Instanzmethodendeklaration enthält ein `override` Modifizierer, die Methode überschreibt eine geerbte virtuelle Methode mit der gleichen Signatur. Während eine Deklaration einer virtuellen Methode eine neue Methode einführt, spezialisiert eine Deklaration einer überschriebenen Methode eine vorhandene geerbte virtuelle Methode, indem eine neue Implementierung dieser Methode bereitgestellt wird.
+A virtual method can be ***overridden*** in a derived class. When an instance method declaration includes an `override` modifier, the method overrides an inherited virtual method with the same signature. Whereas a virtual method declaration introduces a new method, an override method declaration specializes an existing inherited virtual method by providing a new implementation of that method.
 
-Ein ***abstrakte*** Methode ist eine virtuelle Methode ohne Implementierung. Eine abstrakte Methode ist deklariert, mit der `abstract` Modifizierer und darf nur in einer Klasse, die auch deklariert wird `abstract`. Eine abstrakte Methode muss in jeder nicht abstrakten abgeleiteten Klasse überschrieben werden.
+An ***abstract*** method is a virtual method with no implementation. An abstract method is declared with the `abstract` modifier and is permitted only in a class that is also declared `abstract`. An abstract method must be overridden in every non-abstract derived class.
 
-Im folgenden Beispiel wird die abstrakte Klasse `Expression` deklariert, die einen Ausdrucksbaumstrukturknoten sowie drei abgeleitete Klassen repräsentiert: `Constant`, `VariableReference` und `Operation`. Diese implementieren Ausdrucksbaumstrukturknoten für Konstanten, variable Verweise und arithmetische Operationen. (Dieser Vorgang ähnelt, aber nicht zu verwechseln mit die ausdrucksbaumstrukturtypen, das in eingeführte [ausdrucksbaumstrukturtypen](types.md#expression-tree-types)).
+The following example declares an abstract class, `Expression`, which represents an expression tree node, and three derived classes, `Constant`, `VariableReference`, and `Operation`, which implement expression tree nodes for constants, variable references, and arithmetic operations. (This is similar to, but not to be confused with the expression tree types introduced in [Expression tree types](types.md#expression-tree-types)).
 
 ```csharp
 using System;
@@ -952,7 +944,7 @@ public class Operation: Expression
     }
 }
 ```
-Die vorherigen vier Klassen können zum Modellieren arithmetischer Ausdrücke verwendet werden. Beispielsweise kann mithilfe von Instanzen dieser Klassen der Ausdruck `x + 3` folgendermaßen dargestellt werden.
+The previous four classes can be used to model arithmetic expressions. For example, using instances of these classes, the expression `x + 3` can be represented as follows.
 
 ```csharp
 Expression e = new Operation(
@@ -960,11 +952,11 @@ Expression e = new Operation(
     '+',
     new Constant(3));
 ```
-Die `Evaluate`-Methode einer `Expression`-Instanz wird aufgerufen, um den vorgegebenen Ausdruck auszuwerten und einen `double`-Wert zu generieren. Die Methode, die als Argument akzeptiert eine `Hashtable` , Variablennamen (als Schlüssel der Einträge) und Werte (als Werte der Einträge) enthält. Die `Evaluate` Methode ist eine virtuelle abstrakte Methode, was bedeutet, dass nicht abstrakte abgeleitete Klassen überschreiben müssen, um eine tatsächliche Implementierung bereitzustellen.
+The `Evaluate` method of an `Expression` instance is invoked to evaluate the given expression and produce a `double` value. The method takes as an argument a `Hashtable` that contains variable names (as keys of the entries) and values (as values of the entries). The `Evaluate` method is a virtual abstract method, meaning that non-abstract derived classes must override it to provide an actual implementation.
 
-Eine Implementierung von `Constant` für `Evaluate` gibt lediglich die gespeicherte Konstante zurück. Ein `VariableReference`die Implementierung sieht nach dem Variablennamen in der Hashtabelle und gibt den Ergebniswert zurück. Eine Implementierung von `Operation` wertet zunächst (durch einen rekursiven Aufruf der zugehörigen `Evaluate`-Methoden) den linken und rechten Operanden aus und führt dann die vorgegebene arithmetische Operation aus.
+A `Constant`'s implementation of `Evaluate` simply returns the stored constant. A `VariableReference`'s implementation looks up the variable name in the hashtable and returns the resulting value. An `Operation`'s implementation first evaluates the left and right operands (by recursively invoking their `Evaluate` methods) and then performs the given arithmetic operation.
 
-Das folgende Programm verwendet die `Expression`-Klassen zum Auswerten des Ausdrucks `x * (y + 2)` für verschiedene Werte von `x` und `y`.
+The following program uses the `Expression` classes to evaluate the expression `x * (y + 2)` for different values of `x` and `y`.
 
 ```csharp
 using System;
@@ -993,9 +985,9 @@ class Test
 }
 ```
 
-#### <a name="method-overloading"></a>Methodenüberladung
+#### <a name="method-overloading"></a>Method overloading
 
-Das ***Überladen*** von Methoden macht es möglich, dass mehrere Methoden in derselben Klasse denselben Namen verwenden, solange sie eindeutige Signaturen aufweisen. Beim Kompilieren des Aufrufs einer überladenen Methode verwendet der Compiler die ***Überladungsauflösung***, um die spezifische Methode zu ermitteln, die aufgerufen werden soll. Mithilfe der Überladungsauflösung wird die Methode ermittelt, die den Argumenten am besten entspricht, bzw. es wird ein Fehler ausgegeben, wenn keine passende Methode gefunden wird. Das folgende Beispiel zeigt die Verwendung der Überladungsauflösung. Der Kommentar für jeden Aufruf in der `Main`-Methode zeigt, welche Methode tatsächlich aufgerufen wird.
+Method ***overloading*** permits multiple methods in the same class to have the same name as long as they have unique signatures. When compiling an invocation of an overloaded method, the compiler uses ***overload resolution*** to determine the specific method to invoke. Overload resolution finds the one method that best matches the arguments or reports an error if no single best match can be found. The following example shows overload resolution in effect. The comment for each invocation in the `Main` method shows which method is actually invoked.
 
 ```csharp
 class Test
@@ -1036,13 +1028,13 @@ class Test
     }
 }
 ```
-Wie im Beispiel gezeigt, kann eine bestimmte Methode immer ausgewählt werden, indem die Argumente explizit in die passenden Parametertypen konvertiert und/oder explizit Typargumente angegeben werden.
+As shown by the example, a particular method can always be selected by explicitly casting the arguments to the exact parameter types and/or explicitly supplying type arguments.
 
-### <a name="other-function-members"></a>Andere Funktionsmember
+### <a name="other-function-members"></a>Other function members
 
-Member, die ausführbaren Code enthalten, werden als ***Funktionsmember*** einer Klasse bezeichnet. In den vorangegangenen Abschnitten wurden die Methoden beschrieben, die wichtigste Form der Funktionsmember. In diesem Abschnitt wird beschrieben, die andere Arten von Funktionsmembern von c# unterstützt: Konstruktoren, Eigenschaften, Indexer, Ereignisse, Operatoren und Destruktoren.
+Members that contain executable code are collectively known as the ***function members*** of a class. The preceding section describes methods, which are the primary kind of function members. This section describes the other kinds of function members supported by C#: constructors, properties, indexers, events, operators, and destructors.
 
-Der folgende Code zeigt eine generische Klasse namens `List<T>`, die eine wachsende Liste von Objekten implementiert. Die Klasse enthält verschiedene Beispiele der gängigsten Arten von Funktionsmembern.
+The following code shows a generic class called `List<T>`, which implements a growable list of objects. The class contains several examples of the most common kinds of function members.
 
 
 ```csharp
@@ -1125,34 +1117,34 @@ public class List<T> {
 }
 ```
 
-#### <a name="constructors"></a>Konstruktoren
+#### <a name="constructors"></a>Constructors
 
-C# unterstützt sowohl Instanzkonstruktoren als auch statische Konstruktoren. Ein ***Instanzkonstruktor*** ist ein Member, der die erforderlichen Aktionen zum Initialisieren einer Instanz einer Klasse implementiert. Ein ***statischer Konstruktor*** ist ein Member, der die zum Initialisieren einer Klasse erforderlichen Aktionen implementiert, um die Klasse beim ersten Laden selbst zu initialisieren.
+C# supports both instance and static constructors. An ***instance constructor*** is a member that implements the actions required to initialize an instance of a class. A ***static constructor*** is a member that implements the actions required to initialize a class itself when it is first loaded.
 
-Ein Konstruktor wird wie eine Methode ohne Rückgabetyp und mit demselben Namen wie die enthaltende Klasse deklariert. Wenn eine Konstruktordeklaration verwendet enthält eine `static` Modifizierer verwenden, wird einen statischen Konstruktor deklariert. Andernfalls wird ein Instanzkonstruktor deklariert.
+A constructor is declared like a method with no return type and the same name as the containing class. If a constructor declaration includes a `static` modifier, it declares a static constructor. Otherwise, it declares an instance constructor.
 
-Instanzkonstruktoren können überladen werden. Beispielsweise deklariert die `List<T>
-`-Klasse zwei Instanzkonstruktoren, einen ohne Parameter und einen weiteren mit einem `int`-Parameter. Instanzkonstruktoren werden über den `new`-Operator aufgerufen. Die folgenden Anweisungen weisen zwei `List<string>
-` Instanzen, indem Sie die Konstruktoren der `List` Klasse.
+Instance constructors can be overloaded. For example, the `List<T>
+` class declares two instance constructors, one with no parameters and one that takes an `int` parameter. Instance constructors are invoked using the `new` operator. The following statements allocate two `List<string>
+` instances using each of the constructors of the `List` class.
 
 ```csharp
 List<string> list1 = new List<string>();
 List<string> list2 = new List<string>(10);
 ```
-Im Gegensatz zu anderen Members werden Instanzkonstruktoren nicht geerbt, und eine Klasse weist keine anderen Instanzkonstruktoren auf als diejenigen, die tatsächlich in der Klasse deklariert wurden. Wenn kein Instanzkonstruktor für eine Klasse angegeben ist, wird automatisch ein leerer Instanzkonstruktor ohne Parameter bereitgestellt.
+Unlike other members, instance constructors are not inherited, and a class has no instance constructors other than those actually declared in the class. If no instance constructor is supplied for a class, then an empty one with no parameters is automatically provided.
 
-#### <a name="properties"></a>Eigenschaften
+#### <a name="properties"></a>Properties
 
-***Eigenschaften*** sind eine natürliche Erweiterung der Felder. Beide sind benannte Member mit zugeordneten Typen, und für den Zugriff auf Felder und Eigenschaften wird dieselbe Syntax verwendet. Im Gegensatz zu Feldern bezeichnen Eigenschaften jedoch keine Speicherorte. Stattdessen verfügen Eigenschaften über ***Accessors*** zum Angeben der Anweisungen, die beim Lesen oder Schreiben ihrer Werte ausgeführt werden sollen.
+***Properties*** are a natural extension of fields. Both are named members with associated types, and the syntax for accessing fields and properties is the same. However, unlike fields, properties do not denote storage locations. Instead, properties have ***accessors*** that specify the statements to be executed when their values are read or written.
 
-Eine Eigenschaft wird wie ein Feld deklariert, außer dass die Deklaration mit endet eine `get` Accessor und/oder einen `set` Accessor, die zwischen den Trennzeichen `{` und `}` statt einem Semikolon endet. Eine Eigenschaft, die beides aufweist eine `get` Accessor und einen `set` -Accessor ist eine ***Lese-/ Schreibzugriff-Eigenschaft***, eine Eigenschaft, die nur eine `get` -Accessor ist eine ***schreibgeschützte Eigenschaft***, und ein Eigenschaft, die nur eine `set` -Accessor ist eine ***lesegeschützte Eigenschaft***.
+A property is declared like a field, except that the declaration ends with a `get` accessor and/or a `set` accessor written between the delimiters `{` and `}` instead of ending in a semicolon. A property that has both a `get` accessor and a `set` accessor is a ***read-write property***, a property that has only a `get` accessor is a ***read-only property***, and a property that has only a `set` accessor is a ***write-only property***.
 
-Ein `get` -Accessor entspricht einer Methode ohne Parameter mit einem Rückgabewert des Eigenschaftstyps. Eine Eigenschaft in einem Ausdruck verwiesen wird, wird als Ziel einer Zuweisung, außer die `get` -Accessor der Eigenschaft wird aufgerufen, um den Wert der Eigenschaft zu berechnen.
+A `get` accessor corresponds to a parameterless method with a return value of the property type. Except as the target of an assignment, when a property is referenced in an expression, the `get` accessor of the property is invoked to compute the value of the property.
 
-Ein `set` Accessor entspricht einer Methode mit einem einzigen Parameter, die mit dem Namen `value` und keinen Rückgabewert. Wenn eine Eigenschaft verwiesen wird, als das Ziel einer Zuweisung oder als Operand `++` oder `--`, `set` -Accessor wird aufgerufen, mit der ein Argument, das den neuen Wert bereitstellt.
+A `set` accessor corresponds to a method with a single parameter named `value` and no return type. When a property is referenced as the target of an assignment or as the operand of `++` or `--`, the `set` accessor is invoked with an argument that provides the new value.
 
-Die `List<T>
-` -Klasse deklariert zwei Eigenschaften, `Count` und `Capacity`, die schreibgeschützten und Lese-/ Schreibzugriff, bzw. sind. Es folgt ein Beispiel zur Verwendung dieser Eigenschaften.
+The `List<T>
+` class declares two properties, `Count` and `Capacity`, which are read-only and read-write, respectively. The following is an example of use of these properties.
 
 ```csharp
 List<string> names = new List<string>();
@@ -1160,15 +1152,15 @@ names.Capacity = 100;            // Invokes set accessor
 int i = names.Count;             // Invokes get accessor
 int j = names.Capacity;          // Invokes get accessor
 ```
-Ähnlich wie bei Feldern und Methoden unterstützt C# sowohl Instanzeigenschaften als auch statische Eigenschaften. Statische Eigenschaften werden deklariert, mit der `static` Modifizierer und Instanzeigenschaften werden ohne ihn deklariert.
+Similar to fields and methods, C# supports both instance properties and static properties. Static properties are declared with the `static` modifier, and instance properties are declared without it.
 
-Die Accessors einer Eigenschaft können virtuell sein. Wenn eine Eigenschaftendeklaration einen `virtual`-, `abstract`- oder `override`-Modifizierer enthält, wird dieser auf den Accessor der Eigenschaft angewendet.
+The accessor(s) of a property can be virtual. When a property declaration includes a `virtual`, `abstract`, or `override` modifier, it applies to the accessor(s) of the property.
 
-#### <a name="indexers"></a>Indexer
+#### <a name="indexers"></a>Indexers
 
-Ein ***Indexer*** ist ein Member, mit dem Objekte wie ein Array indiziert werden können. Ein Indexer wird wie eine Eigenschaft deklariert, mit dem Unterschied, dass der Name des Members `this` gefolgt von einer Parameterliste, die zwischen den Trennzeichen `[` und `]`. Die Parameter stehen im Accessor des Indexers zur Verfügung. Ähnlich wie Eigenschaften können Indexer Lese-/Schreibzugriff besitzen, schreibgeschützt und lesegeschützt sein und virtuelle Accessors verwenden.
+An ***indexer*** is a member that enables objects to be indexed in the same way as an array. An indexer is declared like a property except that the name of the member is `this` followed by a parameter list written between the delimiters `[` and `]`. The parameters are available in the accessor(s) of the indexer. Similar to properties, indexers can be read-write, read-only, and write-only, and the accessor(s) of an indexer can be virtual.
 
-Die `List`-Klasse deklariert einen einzigen Indexer mit Lese-/Schreibzugriff, der einen `int`-Parameter akzeptiert. Der Indexer ermöglicht es, Instanzen von `List` mit `int`-Werten zu indizieren. Beispiel:
+The `List` class declares a single read-write indexer that takes an `int` parameter. The indexer makes it possible to index `List` instances with `int` values. For example
 
 ```csharp
 List<string> names = new List<string>();
@@ -1180,19 +1172,19 @@ for (int i = 0; i < names.Count; i++) {
     names[i] = s.ToUpper();
 }
 ```
-Indexer können überladen werden, d.h. eine Klasse kann mehrere Indexer deklarieren, solange sich die Anzahl oder Typen ihrer Parameter unterscheiden.
+Indexers can be overloaded, meaning that a class can declare multiple indexers as long as the number or types of their parameters differ.
 
-#### <a name="events"></a>Ereignisse
+#### <a name="events"></a>Events
 
-Ein ***Ereignis*** ist ein Member, der es einer Klasse oder einem Objekt ermöglicht, Benachrichtigungen bereitzustellen. Ein Ereignis wird wie ein Feld deklariert, mit dem Unterschied, dass die Deklaration enthält eine `event` -Schlüsselwort und der Typ müssen ein Delegattyp sein.
+An ***event*** is a member that enables a class or object to provide notifications. An event is declared like a field except that the declaration includes an `event` keyword and the type must be a delegate type.
 
-Innerhalb einer Klasse, die einen Ereignismember deklariert, verhält sich das Ereignis wie ein Feld des Delegattyps (vorausgesetzt, das Ereignis ist nicht abstrakt und deklariert keine Accessors). Das Feld speichert einen Verweis auf einen Delegaten, der die Ereignishandler repräsentiert, die dem Ereignis hinzugefügt wurden. Wenn keine Handles für ein Ereignis vorhanden sind, wird das Feld `null`.
+Within a class that declares an event member, the event behaves just like a field of a delegate type (provided the event is not abstract and does not declare accessors). The field stores a reference to a delegate that represents the event handlers that have been added to the event. If no event handles are present, the field is `null`.
 
-Die `List<T>
-`-Klasse deklariert einen einzigen Ereignismember namens `Changed`, der angibt, dass der Liste ein neues Element hinzugefügt wurde. Die `Changed` Ereignis wird ausgelöst, durch die `OnChanged` virtuelle Methode, die zunächst prüft, ob das Ereignis `null` (d. h., dass keine Handler vorhanden sind). Das Auslösen eines Ereignisses entspricht exakt dem Aufrufen des Delegaten, der durch das Ereignis repräsentiert wird, es gibt deshalb keine besonderen Sprachkonstrukte zum Auslösen von Ereignissen.
+The `List<T>
+` class declares a single event member called `Changed`, which indicates that a new item has been added to the list. The `Changed` event is raised by the `OnChanged` virtual method, which first checks whether the event is `null` (meaning that no handlers are present). The notion of raising an event is precisely equivalent to invoking the delegate represented by the event—thus, there are no special language constructs for raising events.
 
-Clients reagieren über ***Ereignishandler*** auf Ereignisse. Ereignishandler werden unter Verwendung des `+=`-Operators angefügt und mit dem `-=`-Operator entfernt. Im folgenden Beispiel wird dem `Changed`-Ereignis von `List<string>
-` ein Ereignishandler hinzugefügt.
+Clients react to events through ***event handlers***. Event handlers are attached using the `+=` operator and removed using the `-=` operator. The following example attaches an event handler to the `Changed` event of a `List<string>
+`.
 
 ```csharp
 using System;
@@ -1215,16 +1207,16 @@ class Test
     }
 }
 ```
-In komplexeren Szenarien, in denen die zugrunde liegende Speicherung eines Ereignisses gesteuert werden soll, können in einer Ereignisdeklaration explizit die `add`- und `remove`-Accessors bereitgestellt werden. Diese ähneln in gewisser Weise dem `set`-Accessor einer Eigenschaft.
+For advanced scenarios where control of the underlying storage of an event is desired, an event declaration can explicitly provide `add` and `remove` accessors, which are somewhat similar to the `set` accessor of a property.
 
-#### <a name="operators"></a>Operatoren
+#### <a name="operators"></a>Operators
 
-Ein ***Operator*** ist ein Member, der die Bedeutung der Anwendung eines bestimmten Ausdrucksoperators auf Instanzen einer Klasse definiert. Es können drei Arten von Operatoren definiert werden: unäre Operatoren, binäre Operatoren und Konvertierungsoperatoren. Alle Operatoren müssen als `public` und `static` deklariert werden.
+An ***operator*** is a member that defines the meaning of applying a particular expression operator to instances of a class. Three kinds of operators can be defined: unary operators, binary operators, and conversion operators. All operators must be declared as `public` and `static`.
 
-Die `List<T>
-`-Klasse deklariert zwei Operatoren, `operator==` und `operator!=`, und verleiht so Ausdrücken, die diese Operatoren auf `List`-Instanzen anwenden, eine neue Bedeutung. Insbesondere die Operatoren definieren die Gleichheit von zwei `List<T>
-` als Vergleich aller enthaltenen Objekte mithilfe von Instanzen ihrer `Equals` Methoden. Im folgenden Beispiel wird der `==`-Operator verwendet, um zwei Instanzen von `List<int>
-` zu vergleichen.
+The `List<T>
+` class declares two operators, `operator==` and `operator!=`, and thus gives new meaning to expressions that apply those operators to `List` instances. Specifically, the operators define equality of two `List<T>
+` instances as comparing each of the contained objects using their `Equals` methods. The following example uses the `==` operator to compare two `List<int>
+` instances.
 
 ```csharp
 using System;
@@ -1245,23 +1237,23 @@ class Test
 }
 ```
 
-Die erste Methode `Console.WriteLine` gibt `True` aus, weil die zwei Listen dieselbe Anzahl von Objekten mit denselben Werten in derselben Reihenfolge enthalten. Wenn `List<T>
-` nicht `operator==` definieren würde, würde die Ausgabe der ersten `Console.WriteLine`-Methode `False` lauten, weil `a` und `b` auf unterschiedliche `List<int>
-`-Instanzen verweisen.
+The first `Console.WriteLine` outputs `True` because the two lists contain the same number of objects with the same values in the same order. Had `List<T>
+` not defined `operator==`, the first `Console.WriteLine` would have output `False` because `a` and `b` reference different `List<int>
+` instances.
 
-#### <a name="destructors"></a>Destruktoren
+#### <a name="destructors"></a>Destructors
 
-Ein ***Destruktor*** ist ein Element, das die erforderlichen Aktionen zum zerstört einer Instanz einer Klasse implementiert. Destruktoren können keine Parameter haben, sie können keine Zugriffsmodifizierer aufweisen und sie können nicht explizit aufgerufen werden. Der Destruktor für eine Instanz wird automatisch während der automatischen speicherbereinigung aufgerufen.
+A ***destructor*** is a member that implements the actions required to destruct an instance of a class. Destructors cannot have parameters, they cannot have accessibility modifiers, and they cannot be invoked explicitly. The destructor for an instance is invoked automatically during garbage collection.
 
-Der Garbage Collector kann entscheiden, wann Objekte sammeln und Destruktoren ausführen. Insbesondere der Zeitpunkt der Destruktor aufrufen, ist nicht deterministisch und Destruktoren können in jedem Thread ausgeführt werden. Für diesen und anderen Gründen sollten Klassen mit Destruktoren implementieren, nur, wenn keine andere Lösung möglich ist.
+The garbage collector is allowed wide latitude in deciding when to collect objects and run destructors. Specifically, the timing of destructor invocations is not deterministic, and destructors may be executed on any thread. For these and other reasons, classes should implement destructors only when no other solutions are feasible.
 
-Die `using`-Anweisung bietet einen besseren Ansatz für die Objektzerstörung.
+The `using` statement provides a better approach to object destruction.
 
-## <a name="structs"></a>Strukturen
+## <a name="structs"></a>Structs
 
-Wie Klassen sind ***Strukturen*** Datenstrukturen, die Datenmember und Funktionsmember enthalten können, aber im Gegensatz zu Klassen sind Strukturen Werttypen und erfordern keine Heapzuordnung. Eine Variable eines Strukturtyps speichert die Daten der Struktur direkt, während eine Variable eines Klassentyps einen Verweis auf ein dynamisch zugeordnetes Objekt speichert. Strukturtypen unterstützen keine benutzerdefinierte Vererbung, und alle Strukturtypen erben implizit vom Typ `object`.
+Like classes, ***structs*** are data structures that can contain data members and function members, but unlike classes, structs are value types and do not require heap allocation. A variable of a struct type directly stores the data of the struct, whereas a variable of a class type stores a reference to a dynamically allocated object. Struct types do not support user-specified inheritance, and all struct types implicitly inherit from type `object`.
 
-Strukturen sind besonders nützlich für kleine Datenstrukturen, die über Wertsemantik verfügen. Komplexe Zahlen, Punkte in einem Koordinatensystem oder Schlüssel-Wert-Paare im Wörterbuch sind gute Beispiele für Strukturen. Die Verwendung von Strukturen statt Klassen für kleine Datenstrukturen kann bei der Anzahl der Speicherbelegungen, die eine Anwendung durchführt, einen großen Unterschied ausmachen. Das folgende Programm erstellt und initialisiert z.B. ein Array aus 100 Punkten. Mit `Point` als implementierter Klasse werden 101 separate Objekte instanziiert – eines für das Array und jeweils eines für jedes der 100 Elemente.
+Structs are particularly useful for small data structures that have value semantics. Complex numbers, points in a coordinate system, or key-value pairs in a dictionary are all good examples of structs. The use of structs rather than classes for small data structures can make a large difference in the number of memory allocations an application performs. For example, the following program creates and initializes an array of 100 points. With `Point` implemented as a class, 101 separate objects are instantiated—one for the array and one each for the 100 elements.
 
 ```csharp
 class Point
@@ -1282,7 +1274,7 @@ class Test
     }
 }
 ```
-Eine Alternative ist, `Point` eine Struktur.
+An alternative is to make `Point` a struct.
 
 ```csharp
 struct Point
@@ -1295,11 +1287,11 @@ struct Point
     }
 }
 ```
-Jetzt wird nur ein Objekt instanziiert – für das Array – und die `Point`-Instanzen werden inline im Array gespeichert.
+Now, only one object is instantiated—the one for the array—and the `Point` instances are stored in-line in the array.
 
-Strukturkonstruktoren werden mit dem neuen Operator `new` aufgerufen, doch das bedeutet nicht, dass der Arbeitsspeicher belegt wird. Statt ein Objekt dynamisch zuzuordnen und einen Verweis darauf zurückzugeben, gibt ein Strukturkonstruktor einfach den Strukturwert selbst zurück (in der Regel in einen temporären Speicherort auf dem Stapel), und dieser Wert wird dann nach Bedarf kopiert.
+Struct constructors are invoked with the `new` operator, but that does not imply that memory is being allocated. Instead of dynamically allocating an object and returning a reference to it, a struct constructor simply returns the struct value itself (typically in a temporary location on the stack), and this value is then copied as necessary.
 
-Mit Klassen können zwei Variablen auf das gleiche Objekt verweisen, und so können an einer Variablen durchgeführte Vorgänge das Objekt beeinflussen, auf das die andere Variable verweist. Mit Strukturen besitzt jede Variable eine eigene Kopie der Daten, und es ist nicht möglich, dass an einer Variablen durchgeführte Vorgänge die andere beeinflussen. Zum Beispiel die Ausgabe durch das folgende Codefragment davon abhängig, ob `Point` ist eine Klasse oder Struktur.
+With classes, it is possible for two variables to reference the same object and thus possible for operations on one variable to affect the object referenced by the other variable. With structs, the variables each have their own copy of the data, and it is not possible for operations on one to affect the other. For example, the output produced by the following code fragment depends on whether `Point` is a class or a struct.
 
 ```csharp
 Point a = new Point(10, 10);
@@ -1307,17 +1299,17 @@ Point b = a;
 a.x = 20;
 Console.WriteLine(b.x);
 ```
-Wenn `Point` ist eine Klasse, die Ausgabe ist `20` da `a` und `b` auf das gleiche Objekt verweisen. Wenn `Point` ist eine Struktur, die Ausgabe ist `10` da die Zuweisung von `a` zu `b` erstellt eine Kopie des Werts, und diese Kopie ist nicht betroffen von der nachfolgenden Zuweisung zu `a.x`.
+If `Point` is a class, the output is `20` because `a` and `b` reference the same object. If `Point` is a struct, the output is `10` because the assignment of `a` to `b` creates a copy of the value, and this copy is unaffected by the subsequent assignment to `a.x`.
 
-Im vorherigen Beispiel werden zwei der Einschränkungen von Strukturen hervorgehoben. Erstens ist das Kopieren einer gesamten Struktur in der Regel weniger effizient als das Kopieren eines Objektverweises, sodass Zuweisung und Wertparameterübergabe mit Strukturen aufwändiger sein kann als mit Verweistypen. Zweitens ist es mit Ausnahme der `ref`- und `out`-Parameter nicht möglich, Verweise auf Strukturen zu erstellen, was ihre Verwendung in einer Reihe von Situationen ausschließt.
+The previous example highlights two of the limitations of structs. First, copying an entire struct is typically less efficient than copying an object reference, so assignment and value parameter passing can be more expensive with structs than with reference types. Second, except for `ref` and `out` parameters, it is not possible to create references to structs, which rules out their usage in a number of situations.
 
 ## <a name="arrays"></a>Arrays
 
-Ein ***Array*** ist eine Datenstruktur, die eine Anzahl von Variablen enthält, auf die über berechnete Indizes zugegriffen wird. Die im Array enthaltenen Variablen, auch ***Elemente*** des Arrays genannt, weisen alle denselben Typ auf. Dieser Typ wird als ***Elementtyp*** des Arrays bezeichnet.
+An ***array*** is a data structure that contains a number of variables that are accessed through computed indices. The variables contained in an array, also called the ***elements*** of the array, are all of the same type, and this type is called the ***element type*** of the array.
 
-Arraytypen sind Verweistypen, und die Deklaration einer Arrayvariablen reserviert Speicher für einen Verweis auf eine Arrayinstanz. Die tatsächlichen Arrayinstanzen werden dynamisch erstellt, zur Laufzeit mithilfe der `new` Operator. Die `new` Vorgang gibt die ***Länge*** der neuen Arrayinstanz, die dann für die Lebensdauer der Instanz behoben wird. Die Indizes der Arrayelemente reichen von `0` bis `Length - 1`. Der `new`-Operator initialisiert die Elemente eines Arrays automatisch mit ihren Standardwerten. Dieser lautet z.B. für alle numerischen Typen 0 und für alle Verweistypen `null`.
+Array types are reference types, and the declaration of an array variable simply sets aside space for a reference to an array instance. Actual array instances are created dynamically at run-time using the `new` operator. The `new` operation specifies the ***length*** of the new array instance, which is then fixed for the lifetime of the instance. The indices of the elements of an array range from `0` to `Length - 1`. The `new` operator automatically initializes the elements of an array to their default value, which, for example, is zero for all numeric types and `null` for all reference types.
 
-Im folgenden Beispiel wird ein Array aus `int`-Elementen erstellt. Anschließend wird das Array initialisiert und die Inhalte des Arrays werden gedruckt.
+The following example creates an array of `int` elements, initializes the array, and prints out the contents of the array.
 
 ```csharp
 using System;
@@ -1335,16 +1327,16 @@ class Test
     }
 }
 ```
-Mit diesem Beispiel wird ein ***eindimensionales Array*** erstellt und verwendet. C# unterstützt auch ***mehrdimensionale Arrays***. Die Anzahl von Dimensionen eines Arraytyps, auch als ***Rang*** des Arraytyps bezeichnet, ist 1 plus die Anzahl von Kommas, die innerhalb der eckigen Klammern des Arraytyps angegeben ist. Im folgende Beispiel weist ein eindimensionales, ein zweidimensionales und ein dreidimensionales Array.
+This example creates and operates on a ***single-dimensional array***. C# also supports ***multi-dimensional arrays***. The number of dimensions of an array type, also known as the ***rank*** of the array type, is one plus the number of commas written between the square brackets of the array type. The following example allocates a one-dimensional, a two-dimensional, and a three-dimensional array.
 
 ```csharp
 int[] a1 = new int[10];
 int[,] a2 = new int[10, 5];
 int[,,] a3 = new int[10, 5, 2];
 ```
-Das `a1`-Array enthält 10 Elemente, das `a2`-Array umfasst 50 (10 × 5) Elemente, und das `a3`-Array enthält 100 (10 × 5 × 2) Elemente.
+The `a1` array contains 10 elements, the `a2` array contains 50 (10 × 5) elements, and the `a3` array contains 100 (10 × 5 × 2) elements.
 
-Ein Array kann einen beliebigen Elementtyp verwenden, einschließlich eines Arraytyps.  Ein Array mit Elementen eines Arraytyps wird auch als ***verzweigtes Array*** bezeichnet, weil die Länge der Elementarrays nicht identisch sein muss. Im folgenden Beispiel wird ein Array aus `int`-Arrays zugewiesen:
+The element type of an array can be any type, including an array type. An array with elements of an array type is sometimes called a ***jagged array*** because the lengths of the element arrays do not all have to be the same. The following example allocates an array of arrays of `int`:
 
 ```csharp
 int[][] a = new int[3][];
@@ -1352,19 +1344,19 @@ a[0] = new int[10];
 a[1] = new int[5];
 a[2] = new int[20];
 ```
-In der ersten Zeile wird ein Array mit drei Elementen erstellt, das jeweils den Typ `int[]` und einen Anfangswert von `null` aufweist. In den folgenden Zeilen werden die drei Elemente mit Verweisen auf einzelne Arrayinstanzen unterschiedlicher Länge initialisiert.
+The first line creates an array with three elements, each of type `int[]` and each with an initial value of `null`. The subsequent lines then initialize the three elements with references to individual array instances of varying lengths.
 
-Die `new` Operator erlaubt es, die Anfangswerte der Arrayelemente unter Verwendung einer ***Arrayinitialisierer***, dies ist eine Liste von Ausdrücken, die zwischen den Trennzeichen `{` und `}`. Mit dem folgenden Beispiel wird ein `int[]` mit drei Elementen zugewiesen und initialisiert.
+The `new` operator permits the initial values of the array elements to be specified using an ***array initializer***, which is a list of expressions written between the delimiters `{` and `}`. The following example allocates and initializes an `int[]` with three elements.
 
 ```csharp
 int[] a = new int[] {1, 2, 3};
 ```
-Beachten Sie, dass die Länge des Arrays, von der Anzahl von Ausdrücken zwischen abgeleitet wird `{` und `}`. Deklarationen lokaler Variablen und Felder können weiter verkürzt werden, sodass der Arraytyp nicht erneut aufgeführt werden muss.
+Note that the length of the array is inferred from the number of expressions between `{` and `}`. Local variable and field declarations can be shortened further such that the array type does not have to be restated.
 
 ```csharp
 int[] a = {1, 2, 3};
 ```
-Die zwei vorherigen Beispiele entsprechen dem folgenden:
+Both of the previous examples are equivalent to the following:
 
 ```csharp
 int[] t = new int[3];
@@ -1373,11 +1365,11 @@ t[1] = 2;
 t[2] = 3;
 int[] a = t;
 ```
-## <a name="interfaces"></a>Schnittstellen
+## <a name="interfaces"></a>Interfaces
 
-Eine ***Schnittstelle*** definiert einen Vertrag, der von Klassen und Strukturen implementiert werden kann. Eine Schnittstelle kann Methoden, Eigenschaften, Ereignisse und Indexer enthalten. Eine Schnittstelle stellt keine Implementierungen der von ihr definierten Member bereit. Sie gibt lediglich die Member an, die von Klassen oder Strukturen bereitgestellt werden müssen, die die Schnittstelle implementieren.
+An ***interface*** defines a contract that can be implemented by classes and structs. An interface can contain methods, properties, events, and indexers. An interface does not provide implementations of the members it defines—it merely specifies the members that must be supplied by classes or structs that implement the interface.
 
-Schnittstellen können ***Mehrfachvererbung*** einsetzen. Im folgenden Beispiel erbt die Schnittstelle `IComboBox` sowohl von `ITextBox` als auch `IListBox`.
+Interfaces may employ ***multiple inheritance***. In the following example, the interface `IComboBox` inherits from both `ITextBox` and `IListBox`.
 
 ```csharp
 interface IControl
@@ -1397,7 +1389,7 @@ interface IListBox: IControl
 
 interface IComboBox: ITextBox, IListBox {}
 ```
-Klassen und Strukturen können mehrere Schnittstellen implementieren. Im folgenden Beispiel implementiert die Klasse `EditBox` sowohl `IControl` als auch `IDataBound`.
+Classes and structs can implement multiple interfaces. In the following example, the class `EditBox` implements both `IControl` and `IDataBound`.
 
 ```csharp
 interface IDataBound
@@ -1411,21 +1403,21 @@ public class EditBox: IControl, IDataBound
     public void Bind(Binder b) {...}
 }
 ```
-Wenn eine Klasse oder Struktur eine bestimmte Schnittstelle implementiert, können Instanzen dieser Klasse oder Struktur implizit in diesen Schnittstellentyp konvertiert werden. Beispiel:
+When a class or struct implements a particular interface, instances of that class or struct can be implicitly converted to that interface type. For example
 
 ```csharp
 EditBox editBox = new EditBox();
 IControl control = editBox;
 IDataBound dataBound = editBox;
 ```
-In Fällen, in denen nicht bekannt ist, dass eine Instanz eine bestimmte Schnittstelle implementiert, können dynamische Typumwandlungen verwendet werden. Beispielsweise verwenden die folgenden Anweisungen dynamische Typumwandlungen zum Abrufen eines Objekts `IControl` und `IDataBound` schnittstellenimplementierungen. Da der tatsächliche Typ des Objekts ist `EditBox`, die Umwandlungen erfolgreich.
+In cases where an instance is not statically known to implement a particular interface, dynamic type casts can be used. For example, the following statements use dynamic type casts to obtain an object's `IControl` and `IDataBound` interface implementations. Because the actual type of the object is `EditBox`, the casts succeed.
 
 ```csharp
 object obj = new EditBox();
 IControl control = (IControl)obj;
 IDataBound dataBound = (IDataBound)obj;
 ```
-In der vorherigen `EditBox` -Klasse, die `Paint` Methode aus der `IControl` Schnittstelle und die `Bind` Methode aus der `IDataBound` Schnittstelle implementiert werden, mithilfe von `public` Member. C# unterstützt außerdem ***explizite Implementierungen eines Schnittstellenmembers***, verwenden die Klasse oder Struktur kann vermeiden, dass die Mitglieder `public`. Eine explizite Implementierung eines Schnittstellenmembers wird mit dem vollqualifizierten Namen des Schnittstellenmembers geschrieben. Die `EditBox`-Klasse könnte z.B. die `IControl.Paint`- und `IDataBound.Bind`-Methode wie folgt über explizite Implementierungen eines Schnittstellenmembers implementieren.
+In the previous `EditBox` class, the `Paint` method from the `IControl` interface and the `Bind` method from the `IDataBound` interface are implemented using `public` members. C# also supports ***explicit interface member implementations***, using which the class or struct can avoid making the members `public`. An explicit interface member implementation is written using the fully qualified interface member name. For example, the `EditBox` class could implement the `IControl.Paint` and `IDataBound.Bind` methods using explicit interface member implementations as follows.
 
 ```csharp
 public class EditBox: IControl, IDataBound
@@ -1434,7 +1426,7 @@ public class EditBox: IControl, IDataBound
     void IDataBound.Bind(Binder b) {...}
 }
 ```
-Der Zugriff auf explizite Schnittstellenmember kann nur über den Schnittstellentyp erfolgen. Z. B. die Implementierung der `IControl.Paint` bereitgestellt, die von der vorherigen `EditBox` Klasse kann nur aufgerufen werden, indem zunächst die `EditBox` Verweis auf die `IControl` Schnittstellentyp.
+Explicit interface members can only be accessed via the interface type. For example, the implementation of `IControl.Paint` provided by the previous `EditBox` class can only be invoked by first converting the `EditBox` reference to the `IControl` interface type.
 
 ```csharp
 EditBox editBox = new EditBox();
@@ -1443,9 +1435,9 @@ IControl control = editBox;
 control.Paint();                        // Ok
 ```
 
-## <a name="enums"></a>Enumerationen
+## <a name="enums"></a>Enums
 
-Ein ***Enumerationstyp*** ist ein eindeutiger Werttyp mit einem Satz benannter Konstanten. Das folgende Beispiel deklariert und verwendet einen Enumerationstyp, der mit dem Namen `Color` mit drei Konstanten Werten `Red`, `Green`, und `Blue`.
+An ***enum type*** is a distinct value type with a set of named constants. The following example declares and uses an enum type named `Color` with three constant values, `Red`, `Green`, and `Blue`.
 
 ```csharp
 using System;
@@ -1483,9 +1475,9 @@ class Test
     }
 }
 ```
-Jeder Enumerationstyp hat einen entsprechenden ganzzahligen Typ, der Namen der ***zugrunde liegender Typ*** des Enum-Typs. Ein Enumerationstyp, der nicht explizit einen zugrunde liegenden Typ deklariert, hat einen zugrunde liegenden Typ `int`. Speicherformat und den Bereich der möglichen Werte eines Enumerationstyps werden durch die zugrunde liegenden Typ bestimmt. Der Satz von Werten, die ein Enum-Typ übernehmen kann, ist nicht durch die Enumerationsmember beschränkt. Insbesondere ein Wert für den zugrunde liegenden Typ einer Enumeration in Enum-Typs umgewandelt werden kann und ein eindeutiger gültiger Wert dieses Enum-Typs ist.
+Each enum type has a corresponding integral type called the ***underlying type*** of the enum type. An enum type that does not explicitly declare an underlying type has an underlying type of `int`. An enum type's storage format and range of possible values are determined by its underlying type. The set of values that an enum type can take on is not limited by its enum members. In particular, any value of the underlying type of an enum can be cast to the enum type and is a distinct valid value of that enum type.
 
-Das folgende Beispiel deklariert einen Enum-Typ, der mit dem Namen `Alignment` mit einem zugrunde liegenden Typs `sbyte`.
+The following example declares an enum type named `Alignment` with an underlying type of `sbyte`.
 
 ```csharp
 enum Alignment: sbyte
@@ -1495,25 +1487,25 @@ enum Alignment: sbyte
     Right = 1
 }
 ```
-Wie im vorherigen Beispiel gezeigt wird, zählen eine Enum-Element-Deklaration einen konstanten Ausdruck, der den Wert des Members angibt. Der Konstante Wert für jede Enum-Element muss im Bereich von der zugrunde liegende Typ der Enumeration. Wenn eine Enum-Memberdeklaration nicht explizit einen Wert angeben, erhält das Element den Wert 0 (null), (wenn es das erste Element in der Enumerationstyp ist) oder den Wert des textlich vorausgehenden Enum-Element plus 1.
+As shown by the previous example, an enum member declaration can include a constant expression that specifies the value of the member. The constant value for each enum member must be in the range of the underlying type of the enum. When an enum member declaration does not explicitly specify a value, the member is given the value zero (if it is the first member in the enum type) or the value of the textually preceding enum member plus one.
 
-Enum-Werte können in ganzzahlige Werte und umgekehrt mit Typumwandlungen werden. Beispiel:
+Enum values can be converted to integral values and vice versa using type casts. For example
 
 ```csharp
 int i = (int)Color.Blue;        // int i = 2;
 Color c = (Color)2;             // Color c = Color.Blue;
 ```
-Der Standardwert eines beliebigen Enumerationstyps ist der ganzzahlige Wert 0 (null), die in den Enumerationstyp konvertiert. In Fällen, in denen Variablen automatisch auf einen Standardwert initialisiert werden, ist dies der Wert, der Variablen von Enum-Typen. In der Reihenfolge für den Standardwert eines Enumerationstyps leicht verfügbar ist, ist das Literal `0` implizit in einen beliebigen Enumerationstyp konvertiert. Daher ist Folgendes zugelassen.
+The default value of any enum type is the integral value zero converted to the enum type. In cases where variables are automatically initialized to a default value, this is the value given to variables of enum types. In order for the default value of an enum type to be easily available, the literal `0` implicitly converts to any enum type. Thus, the following is permitted.
 
 ```csharp
 Color c = 0;
 ```
 
-## <a name="delegates"></a>Delegaten
+## <a name="delegates"></a>Delegates
 
-Ein ***Delegattyp*** stellt Verweise auf Methoden mit einer bestimmten Parameterliste und dem Rückgabetyp dar. Delegate ermöglichen die Behandlung von Methoden als Entitäten, die Variablen zugewiesen und als Parameter übergeben werden können. Delegate ähneln dem Konzept von Funktionszeigern, die Sie in einigen anderen Sprachen finden. Im Gegensatz zu Funktionszeigern sind Delegate allerdings objektorientiert und typsicher.
+A ***delegate type*** represents references to methods with a particular parameter list and return type. Delegates make it possible to treat methods as entities that can be assigned to variables and passed as parameters. Delegates are similar to the concept of function pointers found in some other languages, but unlike function pointers, delegates are object-oriented and type-safe.
 
-Im folgenden Beispiel wird ein Delegattyp namens `Function` deklariert und verwendet.
+The following example declares and uses a delegate type named `Function`.
 
 ```csharp
 using System;
@@ -1554,22 +1546,22 @@ class Test
     }
 }
 ```
-Eine Instanz des Delegattyps `Function` kann auf jede Methode verweisen, die ein `double`-Argument und einen `double`-Wert akzeptiert. Die `Apply` Methode gilt eine angegebenen `Function` für die Elemente der ein `double[]`, zurückgeben eine `double[]` mit den Ergebnissen. In der `Main`-Methode wird `Apply` verwendet, um drei verschiedene Funktionen auf ein `double[]` anzuwenden.
+An instance of the `Function` delegate type can reference any method that takes a `double` argument and returns a `double` value. The `Apply` method applies a given `Function` to the elements of a `double[]`, returning a `double[]` with the results. In the `Main` method, `Apply` is used to apply three different functions to a `double[]`.
 
-Ein Delegat kann entweder auf eine statische Methode verweisen (z.B. `Square` oder `Math.Sin` im vorherigen Beispiel) oder eine Instanzmethode (z.B. `m.Multiply` im vorherigen Beispiel). Ein Delegat, der auf eine Instanzmethode verweist, verweist auch auf ein bestimmtes Objekt, und wenn die Instanzmethode durch den Delegaten aufgerufen wird, wird das Objekt `this` im Aufruf.
+A delegate can reference either a static method (such as `Square` or `Math.Sin` in the previous example) or an instance method (such as `m.Multiply` in the previous example). A delegate that references an instance method also references a particular object, and when the instance method is invoked through the delegate, that object becomes `this` in the invocation.
 
-Delegaten können auch mit anonymen Funktionen erstellt werden, die dynamisch erstellte „Inlinemethoden“ sind. Anonyme Funktionen können die lokalen Variablen der umgebenden Methoden sehen. Daher das obige multiplikatorbeispiel geschrieben werden kann leichter ohne Verwendung einer `Multiplier` Klasse:
+Delegates can also be created using anonymous functions, which are "inline methods" that are created on the fly. Anonymous functions can see the local variables of the surrounding methods. Thus, the multiplier example above can be written more easily without using a `Multiplier` class:
 
 ```csharp
 double[] doubles =  Apply(a, (double x) => x * 2.0);
 ```
-Eine interessante und nützliche Eigenschaft eines Delegaten ist, dass er die Klasse der Methode, auf die er verweist, nicht kennt oder sie ignoriert; wichtig ist nur, dass die referenzierte Methode die gleichen Parameter und den gleichen Rückgabetyp hat wie der Delegat.
+An interesting and useful property of a delegate is that it does not know or care about the class of the method it references; all that matters is that the referenced method has the same parameters and return type as the delegate.
 
-## <a name="attributes"></a>Attribute
+## <a name="attributes"></a>Attributes
 
-Typen, Member und andere Entitäten in einem C#-Programm unterstützen Modifizierer, die bestimmte Aspekte ihres Verhaltens steuern. Der Zugriff auf eine Methode wird beispielsweise mithilfe der Modifizierer `public`, `protected`, `internal` und `private` kontrolliert. C# generalisiert diese Funktionalität, indem benutzerdefinierte Typen deklarativer Informationen an eine Programmentität angefügt und zur Laufzeit abgerufen werden können. Programm geben diese zusätzlichen deklarativen Informationen durch das Definieren und Verwenden von ***Attributen*** an.
+Types, members, and other entities in a C# program support modifiers that control certain aspects of their behavior. For example, the accessibility of a method is controlled using the `public`, `protected`, `internal`, and `private` modifiers. C# generalizes this capability such that user-defined types of declarative information can be attached to program entities and retrieved at run-time. Programs specify this additional declarative information by defining and using ***attributes***.
 
-Im folgenden Beispiel wird ein `HelpAttribute`-Attribut deklariert, dass in Programmentitäten platziert werden kann, um Links zur zugehörigen Dokumentation bereitzustellen.
+The following example declares a `HelpAttribute` attribute that can be placed on program entities to provide links to their associated documentation.
 
 ```csharp
 using System;
@@ -1593,7 +1585,7 @@ public class HelpAttribute: Attribute
     }
 }
 ```
-Alle Attributklassen leiten Sie von der `System.Attribute` Basisklasse, die von .NET Framework bereitgestellt. Attribute können durch Angabe ihres Namens angewendet werden, zusammen mit beliebigen Argumenten. Diese müssen in eckigen Klammern genau vor der zugehörigen Deklaration eingefügt werden. Wenn Sie den Namen eines Attributs endet `Attribute`, dieser Teil des Namens kann ausgelassen werden, wenn das Attribut verwiesen wird. Beispielsweise kann das `HelpAttribute`-Attribut wie folgt verwendet werden.
+All attribute classes derive from the `System.Attribute` base class provided by the .NET Framework. Attributes can be applied by giving their name, along with any arguments, inside square brackets just before the associated declaration. If an attribute's name ends in `Attribute`, that part of the name can be omitted when the attribute is referenced. For example, the `HelpAttribute` attribute can be used as follows.
 
 ```csharp
 [Help("http://msdn.microsoft.com/.../MyClass.htm")]
@@ -1603,9 +1595,9 @@ public class Widget
     public void Display(string text) {}
 }
 ```
-In diesem Beispiel fügt eine `HelpAttribute` auf die `Widget` -Klasse und eine weitere `HelpAttribute` auf die `Display` Methode in der Klasse. Die öffentlichen Konstruktoren einer Attributklasse steuern die Informationen, die beim Anfügen des Attributs an eine Programmentität angegeben werden müssen. Zusätzliche Informationen können angegeben werden, indem auf öffentliche Eigenschaften mit Lese-/Schreibzugriff der Attributklasse verwiesen wird (z.B. wie der obige Verweis auf die `Topic`-Eigenschaft).
+This example attaches a `HelpAttribute` to the `Widget` class and another `HelpAttribute` to the `Display` method in the class. The public constructors of an attribute class control the information that must be provided when the attribute is attached to a program entity. Additional information can be provided by referencing public read-write properties of the attribute class (such as the reference to the `Topic` property previously).
 
-Das folgende Beispiel zeigt, wie Informationen über Bildattribute für ein bestimmtes Programmentität zur Laufzeit abgerufen werden kann mithilfe von Reflektion.
+The following example shows how attribute information for a given program entity can be retrieved at run-time using reflection.
 
 ```csharp
 using System;
@@ -1631,4 +1623,4 @@ class Test
     }
 }
 ```
-Wenn per Reflektion ein bestimmtes Attribut angefordert wird, wird der Konstruktor für die Attributklasse mit den in der Programmquelle angegebenen Informationen aufgerufen, und die resultierende Attributinstanz wird zurückgegeben. Wenn Sie weitere Informationen über Eigenschaften bereitgestellt wurden, werden diese Eigenschaften auf die angegebenen Werte festgelegt, bevor die Attributinstanz zurückgegeben wird. Dies ist test
+When a particular attribute is requested through reflection, the constructor for the attribute class is invoked with the information provided in the program source, and the resulting attribute instance is returned. If additional information was provided through properties, those properties are set to the given values before the attribute instance is returned.This is test
