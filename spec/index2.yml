@@ -1,13 +1,13 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: 0a2bd64f423740f8f03961d20969201c438df7a1
-ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
-ms.translationtype: MT
-ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "62819522"
 documentType: LandingData
 title: Visual Studio’da Kapsayıcı Araçları
 metadata:
+  ms.openlocfilehash: 0a2bd64f423740f8f03961d20969201c438df7a1
+  ms.sourcegitcommit: 94b3a052fb1229c7e7f8804b09c1d403385c7630
+  ms.translationtype: MT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 04/23/2019
+  ms.locfileid: "62819522"
   title: Docker kapsayıcı geliştirme araçları belgeleri
   description: Oluşturmayı ve kapsayıcı tabanlı uygulamalar ve hizmetler yönetmeyi öğrenin. Belgeler, kod örneği, öğreticiler ve daha fazlasını edinin.
   author: ghogen
