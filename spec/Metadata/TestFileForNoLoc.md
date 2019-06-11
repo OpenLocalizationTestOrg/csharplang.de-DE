@@ -11,12 +11,12 @@ ms.author: kasparks
 no-loc:
 - Advisor
 - virtual machines
-ms.openlocfilehash: 0db56c3b5257b5a662aa40b79b1c5353cb882613
-ms.sourcegitcommit: 36bce7b2d33dec748fe380b3308db90082881fe3
+ms.openlocfilehash: fc67c442a7e94812a7f7b6c4a766deb6284fb405
+ms.sourcegitcommit: 24b22e1ceca07fd0f4ec0095a9ec26bc7731c8ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66757868"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826938"
 ---
 # <a name="reduce-service-costs-using-azure-opno-locadvisor"></a>Verwenden von Azure Servicekosten reduzieren Sie können Advisor
 
@@ -53,8 +53,10 @@ Advisor Gibt die öffentliche IP-Adressen, die nicht Azure-Ressourcen wie Lasten
 1. Melden Sie sich bei der [Azure-Portal](https://portal.azure.com), und öffnen Sie dann [ Advisor ](https://aka.ms/azureadvisordashboard).
 
 2.  Auf der Advisor Dashboard, klicken Sie auf die **Kosten** Registerkarte.
-:::no-loc Text="Test Review":::
-:::no-loc Text="This is Test String"::: 
+:::no-loc Text="Test Review":::This should be localized 123
+:::no-loc Text="This is Test String":::  This should be localized
+:::no-loc text="Test Review":::This should be localized 123 small t
+:::no-loc text="This is Test String":::  This should be localized small t
 ## <a name="next-steps"></a>Nächste Schritte
 
 Erfahren Sie mehr über Advisor Empfehlungen finden Sie unter:
