@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: ce35028506f5bd65409d973c2c641ea971feacef
-ms.sourcegitcommit: 7fb8f684979b20e6ccf685a58aef9191899194ff
-ms.translationtype: HT
+ms.openlocfilehash: 0c509f1587a934d556d46c9f2315b1c6aa0601fe
+ms.sourcegitcommit: 8611c6bbbea62e91db77d7951a4b21add340fc89
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67665773"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67717731"
 ---
-This is Scenario3_Include File 1  
+Dies ist Scenario3_Include Datei 1 (Update, Version 2)

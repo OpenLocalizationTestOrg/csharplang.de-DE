@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: bd3063c0b6c65a0595361c76e9f14b1ed9d9782c
-ms.sourcegitcommit: 9eff0bc5ccb5a82106e3d3655620786e019ed35f
+ms.sourcegitcommit: 8611c6bbbea62e91db77d7951a4b21add340fc89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67665714"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67717736"
 ---
-Dies ist Include-Datei 2
+Dies ist die Datei 2 enthalten

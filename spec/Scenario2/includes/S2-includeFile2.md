@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 354e775f88dff8f2b432e9cd5f756e70fa3e76f6
-ms.sourcegitcommit: 7fb8f684979b20e6ccf685a58aef9191899194ff
+ms.sourcegitcommit: 8611c6bbbea62e91db77d7951a4b21add340fc89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "67665765"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67717727"
 ---
-Dies ist Include File 2 für S2 (Update als ver1)
+Einschließen von Datei 2 für S2 sieht (als ver1 update)
