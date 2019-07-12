@@ -1,9 +1,9 @@
 ---
-ms.openlocfilehash: 0e21bdcc85019d8e2cd0969c54ddff317e8b8420
-ms.sourcegitcommit: 6e154f38edea20866eb8366589e3bba26a265369
+ms.openlocfilehash: f6621168897a9c002892363166fb3784085bb4f7
+ms.sourcegitcommit: 8611c6bbbea62e91db77d7951a4b21add340fc89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "67665718"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "67717734"
 ---
-<span data-ttu-id="e121c-101">Dies ist Include-Datei 1 (Update als ver3)</span><span class="sxs-lookup"><span data-stu-id="e121c-101">Dies ist Include-Datei 1 (Update als ver3)</span></span>
+<span data-ttu-id="722d5-101">Dies ist enthalten Datei 1 (Update als ver2)</span><span class="sxs-lookup"><span data-stu-id="722d5-101">This is Include File 1 (update as ver2)</span></span>
