@@ -8,12 +8,12 @@ ms.service: advisor
 ms.topic: article
 ms.date: 01/29/2019
 ms.author: kasparks
-ms.openlocfilehash: 34031883ec432fce4dcdcd3e825c99e453a6c6e3
-ms.sourcegitcommit: 5aca2af2f2c521ae3f3e7fab640edda966edd007
-ms.translationtype: HT
+ms.openlocfilehash: c8b5f84541bce641b60b5e0c55a8c701850b57f0
+ms.sourcegitcommit: 5eac2b357ddc023f87e520e04cafde87796ee319
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "6610198"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "6610235"
 ---
 ![Test1noicon](./image/Test1noicon.png)
 
@@ -49,8 +49,8 @@ Advisor identifiziert öffentliche IP-Adressen, die derzeit nicht Azure-Ressourc
 
 ## <a name="how-to-access-cost-recommendations-in-azure-advisor"></a>Zugreifen auf Kosten Empfehlungen in Azure Advisor
 
-:::image type="complex"  alt-text="Dies ist eine komplexe Funktion zum Testen von Images für LOC-scope1" loc-scope="Azure" source="./Test.png"::: 
-Dies ist eine Protokoll Beschreibung für das Feature für komplexe Abbild Tests für LOC scope1 Dies ist mehrzeilige testing1 :::image-end:::
+:::image type="complex"  alt-text="Dies ist eine komplexe Abbild Testfunktion für Image-SxS-Verhalten." source="./image/Test1noicon.png"::: 
+Dies ist eine Protokoll Beschreibung für das Feature für komplexe Abbild Tests für SxS. Dies ist SxS mehrzeiligen testing1 :::image-end:::
 
 1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com)an, und öffnen Sie [Advisor](https://aka.ms/azureadvisordashboard).
 :::icon source="image\Test123.png":::Dies ist der Symbol Quell Test, wird die nächste Zeile getestet.
