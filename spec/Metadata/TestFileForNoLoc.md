@@ -8,12 +8,12 @@ ms.service: advisor
 ms.topic: article
 ms.date: 01/29/2019
 ms.author: kasparks
-ms.openlocfilehash: c8b5f84541bce641b60b5e0c55a8c701850b57f0
-ms.sourcegitcommit: 5eac2b357ddc023f87e520e04cafde87796ee319
+ms.openlocfilehash: bed9d9cb74ef6f628c6d471b5b41c0ee04d18f16
+ms.sourcegitcommit: 865c81e9bd3c5772a5a3cdcc5b8460cc1f1a8b57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "6610235"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "6610348"
 ---
 ![Test1noicon](./image/Test1noicon.png)
 
@@ -49,7 +49,7 @@ Advisor identifiziert öffentliche IP-Adressen, die derzeit nicht Azure-Ressourc
 
 ## <a name="how-to-access-cost-recommendations-in-azure-advisor"></a>Zugreifen auf Kosten Empfehlungen in Azure Advisor
 
-:::image type="complex"  alt-text="Dies ist eine komplexe Abbild Testfunktion für Image-SxS-Verhalten." source="./image/Test1noicon.png"::: 
+:::image type="complex"  alt-text="Dies ist eine komplexe Abbild Testfunktion für Image-SxS-Verhalten." source="./image/feedback-tool.png"::: 
 Dies ist eine Protokoll Beschreibung für das Feature für komplexe Abbild Tests für SxS. Dies ist SxS mehrzeiligen testing1 :::image-end:::
 
 1. Melden Sie sich beim [Azure-Portal](https://portal.azure.com)an, und öffnen Sie [Advisor](https://aka.ms/azureadvisordashboard).
@@ -63,7 +63,7 @@ Lange Beschreibung Ende :::image-end:::Dies ist das Bild Ende
 
 ::: image source= "./image/Test1noicon.png" alt-text="space teating":::
 
-:::image type="complex" source="./image/Test1noicon.png" alt-text="Dies ist eine komplexe Funktion zum Testen von Images für LOC-scope2" loc-scope="Azure"::: 
+:::image type="complex" source="./image/feedback-tool.png" alt-text="Dies ist eine komplexe Funktion zum Testen von Images für LOC-scope2" loc-scope="Azure"::: 
 Dies ist eine Protokoll Beschreibung für das Feature für komplexe Abbild Tests für LOC scope2 Dies ist mehrzeilige testing2 :::image-end:::
 
 ## <a name="next-steps"></a>Nächste Schritte
