@@ -1,0 +1,221 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: client-operating-system
+  title: Programmiersprachen
+  prompt: Client Betriebssystem auswählen
+  pivots:
+  - id: client-operating-system-linux
+    title: Linux
+  - id: client-operating-system-macos
+    title: MacOS
+  - id: client-operating-system-windows
+    title: Windows
+- id: URL-test-interface
+  title: URL-Testtool
+  prompt: 'Wählen Sie eine der folgenden Optionen aus:'
+  pivots:
+  - id: url-test-tool-curl
+    title: cURL
+  - id: url-test-tool-postman
+    title: Postman
+- id: programming-languages-set-one
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-go
+    title: Wollen
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-python
+    title: Python
+- id: programming-languages-set-two
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-cpp
+    title: C++
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-more
+    title: Weitere Sprachen...
+- id: programming-languages-set-three
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-cpp
+    title: C++
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-python
+    title: Python
+- id: programming-languages-set-four
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-more
+    title: Weitere Sprachen...
+- id: programming-languages-set-five
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-go
+    title: Wollen
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-ruby
+    title: CHRY
+- id: programming-languages-set-six
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-python
+    title: Python
+- id: programming-languages-set-seven
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-cpp
+    title: C++
+- id: programming-languages-set-eight
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-python
+    title: Python
+- id: programming-languages-set-nine
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-cpp
+    title: C++
+- id: programming-languages-text-analytics
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-other
+    title: Andere Sprachen...
+- id: programming-languages-set-ten
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-python
+    title: Python
+- id: programming-languages-set-eleven
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-python
+    title: Python
+- id: cogsvcs-text-analytics-features
+  title: Textanalyse Features
+  prompt: Wählen Sie ein Textanalyse Featureangebot aus
+  pivots:
+  - id: text-analytics-key-phrase-extraction
+    title: Schlüsselbegriffserkennung
+  - id: text-analytics-language-detection
+    title: Sprachenerkennung
+  - id: text-analytics-sentiment-analysis
+    title: Standpunktanalyse
+- id: programming-languages-set-functions
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-powershell
+    title: PowerShell
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-typescript
+    title: TypeScript
+- id: programming-languages-text-analytics
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-python
+    title: Python
+  - id: programming-language-java
+    title: Java
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-other
+    title: Andere Sprachen...
+- id: programming-languages-set-diberry-3core
+  title: Programmiersprachen
+  prompt: Wählen Sie eine Programmiersprache aus.
+  pivots:
+  - id: programming-language-csharp
+    title: C#
+  - id: programming-language-javascript
+    title: JavaScript
+  - id: programming-language-python
+    title: Python
+- id: platforms-set-of-three
+  title: Formen
+  prompt: Plattform auswählen
+  pivots:
+  - id: platform-windows
+    title: Windows
+  - id: platform-linux
+    title: Linux
+  - id: platform-android
+    title: Android
+metadata:
+  ms.openlocfilehash: 607549f85430f62a0a2047f66f993f640ed481ec
+  ms.sourcegitcommit: d326718e23fe2c5c9ec57fb3fb21bb2cae81ec49
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 03/05/2020
+  ms.locfileid: "6612310"
