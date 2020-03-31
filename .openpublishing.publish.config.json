@@ -1,17 +1,32 @@
 {
   "docsets_to_publish": [
     {
+      "docset_name": "csharplang-xml",
+      "build_source_folder": "xml",
+      "build_output_subfolder": "csharplang-xml",
+      "locale": "de-de",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "meetings",
       "build_source_folder": "meetings",
       "build_output_subfolder": "meetings",
-      "locale": "de-DE",
+      "locale": "de-de",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetNamespace": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -20,14 +35,15 @@
       "docset_name": "proposals",
       "build_source_folder": "proposals",
       "build_output_subfolder": "proposals",
-      "locale": "de-DE",
+      "locale": "de-de",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetNamespace": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -36,14 +52,15 @@
       "docset_name": "spec",
       "build_source_folder": "spec",
       "build_output_subfolder": "spec",
-      "locale": "de-DE",
+      "locale": "de-de",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetNamespace": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -63,7 +80,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.de-DE",
+      "url": "https://github.com/Microsoft/templates.docs.msft.de-de",
       "branch": "master",
       "branch_mapping": {}
     },
